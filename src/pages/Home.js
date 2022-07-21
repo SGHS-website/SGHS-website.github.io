@@ -1,6 +1,6 @@
+import React from "react";
 import schoolBackground from "../images/background.jpg"
 import schoolLogo from "../images/logo.png"
-
 
 const Home = () => {
     return (

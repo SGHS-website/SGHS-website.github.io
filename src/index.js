@@ -8,7 +8,7 @@ import Student from "./pages/Student";
 import Competition from "./pages/Competition";
 import Faq from "./pages/Faq";
 import NoPage from "./pages/NoPage";
-
+import React from "react";
 export default function App() {
   return (
     <BrowserRouter>
