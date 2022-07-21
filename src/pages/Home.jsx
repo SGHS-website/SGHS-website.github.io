@@ -1,10 +1,10 @@
 import Layout from "../component/Layout";
 
-const HomePage = ()=>{
+const Home = ()=>{
     return (
         <Layout>
             hello
         </Layout>
     )
 }
-export default HomePage
+export default Home
