@@ -1,6 +1,5 @@
 import schoolBackground from "../images/background.jpg"
 import schoolLogo from "../images/logo.png"
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 
 const Home = () => {
