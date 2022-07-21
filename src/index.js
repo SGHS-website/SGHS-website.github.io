@@ -1,14 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Root from './client/Root';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Club from "./pages/Club";
+import Event from "./pages/Event";
+import Student from "./pages/Student";
+import Competition from "./pages/Competition";
+import Faq from "./pages/Faq";
+import NoPage from "./pages/NoPage";
 
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="club" element={<Club />} />
+          <Route path="event" element={<Event />} />
+          <Route path="competition" element={<Competition />} />
+          <Route path="student" element={<Student />} />
+          <Route path="faq" element={<Faq />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-ReactDOM.render(<Root />, document.getElementById('root'));
-
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
