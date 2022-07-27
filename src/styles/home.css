@@ -1,0 +1,158 @@
+/* overall */
+*{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background: black;
+}
+.container{
+    height: 1200px;
+}
+
+/* header */
+header{
+    height: 60px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    border-bottom: solid white;
+    z-index: 3;
+}
+.logo{
+    line-height: 60px;
+    margin-left: 80px;
+}
+.navigation-menu {
+    overflow: hidden;
+  }
+  
+  .navigation-menu a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navigation-menu .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navigation-menu a:not(:first-child) {display: none;}
+    .navigation-menu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navigation-menu.responsive {position: relative;}
+    .navigation-menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 20px;
+    }
+    .navigation-menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+/*
+.category{
+    display: flex;
+    line-height: 40px;    
+    margin-right: 40px;
+}
+.category Link{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+    .category a:not(:first-child) {display: none;}
+    .category a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .category.responsive {position: relative;}
+    .category.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .category.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+*/
+
+.background-image{
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+}
+.quote-box{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 30vh;
+    z-index: 2;
+}
+.school-logo{
+    height: 50px;
+}
+.quote{
+    font-size: 4em;
+    line-height: 1.5em;
+}
+.button-down {
+    position: absolute;
+    top: 75vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 5px;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+    z-index: 2;
+  }
+  .button-down:hover {
+    transform: translate3d(0, 10px, 0);
+  }
+  .button-down::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    z-index: 2;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  
+  .button-down::after {
+    top: 10px;
+    transform: rotate(225deg);
+  } 
+  
