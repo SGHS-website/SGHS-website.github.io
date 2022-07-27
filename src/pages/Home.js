@@ -6,7 +6,7 @@ import {Parallax, ParallaxLayer} from 'react-spring'
 const Home = () => {
     return (
         <div>
-           
+           hi
         </div>
     )
   };
