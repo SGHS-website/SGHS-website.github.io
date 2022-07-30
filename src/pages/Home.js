@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div>
             <Parallax pages={4} style={{backgroundColor:"black"}}>
-                <ParallaxLayer id="one"style={{backgroundColor: 'red'}}>
+                <ParallaxLayer id="one">
                     <img src={schoolBackground} className="backgroundImage"/>
                 </ParallaxLayer>
                 <ParallaxLayer id="two"offset={1} speed={0.5}>
