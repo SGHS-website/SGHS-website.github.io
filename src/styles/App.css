@@ -3,11 +3,17 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  color: white;
+  color: rgb(228, 225, 202);
   text-decoration: none;
 }
 body{
   background: black;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+ display: none;
+
 }
 /* Navigation.js */
 .App {
