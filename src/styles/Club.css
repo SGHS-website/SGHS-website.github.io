@@ -1,0 +1,38 @@
+.banner {
+    width: 500px;
+    height: 400px;
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png");
+    background-size: 150px 150px;
+    display:flex;
+    float:left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position:relative;
+  }
+
+  .content1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate( -50%, -50%);
+  }
+  .content2 {
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate( -50%, -50%);
+  }
+  .content3 {
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    transform: translate( -50%, -50%);
+  }
+  .content4 {
+    position: absolute;
+    top: 120%;
+    left: 58%;
+    transform: translate( -50%, -50%);
+  }
