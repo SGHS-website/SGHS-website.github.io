@@ -13,19 +13,19 @@ const Home = () => {
                     <img src={schoolBackground} className="backgroundImage" />
                 </ParallaxLayer>
                 <ParallaxLayer id="two" offset={1} speed={0.5} factor={1}>
-                    <a className="smallletters">certified by </a><a className="bigletters">UNESCO</a><img src={Ulogo} className="logoImage"/>
+                    <span className="smallletters">certified by </span><span className="bigletters">UNESCO</span><img src={Ulogo} className="logoImage"/>
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5} factor={1}>
-                    <a className="bigletters">INTELLIGENCE</a>
+                    <span className="bigletters">INTELLIGENCE</span>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5} factor={1}>
-                    <a className="bigletters">VIRTUE</a>
+                    <span className="bigletters">VIRTUE</span>
                 </ParallaxLayer>
                 <ParallaxLayer id="five" offset={4} speed={0.5} factor={1}>
-                    <a className="bigletters">STRENGTH</a>
+                    <span className="bigletters">STRENGTH</span>
                 </ParallaxLayer>
                 <ParallaxLayer id="six" offset={5} speed={0.5} factor={1}>
-                    <a className="smallletters">certified by </a><a className="bigletters">WASC</a><img src={Wlogo} className="logoImage" />
+                    <span className="smallletters">certified by </span><span className="bigletters">WASC</span><img src={Wlogo} className="logoImage" />
                 </ParallaxLayer>
             </Parallax>
         </div>
