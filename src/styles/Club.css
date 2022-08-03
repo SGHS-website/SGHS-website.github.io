@@ -1,4 +1,64 @@
-.banner {
+body{
+  background-color: black;
+  color: white;
+}
+
+.category{
+  border-bottom: solid 2px;
+  border-width: 20%;
+  border-color: white;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 40%;
+  text-align: left;
+  
+}
+.list1 li{
+  margin: 20px;
+  font-size: large;
+  text-align: left;
+}
+.list2 li{
+  margin: 20px;
+  font-size: large;
+  text-align: left;
+}
+.list3 li{
+  margin: 20px;
+  font-size: large;
+  text-align: left;
+}
+.sub-category{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.sub-category div{
+  border: 2px white solid;
+  width: 25%;
+  margin: 1%;
+  text-align: center;
+}
+.sub-category p{
+  text-align: center;
+  position: relative;
+  top: -60%;
+  font-size: 20px;
+}
+.sub-category img{
+  width: 95%;
+  height: 95%;
+  margin: 2.5%;
+  vertical-align: middle;
+  opacity: 50%;
+}
+
+
+.content {
     width: 500px;
     height: 400px;
     background-image: url("https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png");
@@ -7,32 +67,32 @@
     float:left;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-right: 50px;
     position:relative;
   }
 
   .content1 {
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 67%;
+    left: 26%;
     transform: translate( -50%, -50%);
   }
   .content2 {
     position: absolute;
-    top: 50%;
-    left: 58%;
+    top: 67%;
+    left: 72%;
     transform: translate( -50%, -50%);
   }
   .content3 {
     position: absolute;
-    top: 120%;
-    left: 20%;
+    top: 137%;
+    left: 26%;
     transform: translate( -50%, -50%);
   }
   .content4 {
     position: absolute;
-    top: 120%;
-    left: 58%;
+    top: 137%;
+    left: 72%;
     transform: translate( -50%, -50%);
   }
