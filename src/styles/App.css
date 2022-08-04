@@ -67,36 +67,6 @@ body {
   width: 100vw;
   object-fit: cover;
 }
-.smallletters {
-  font-size: 2vw;
-  text-decoration: none;
-  color: white;
-}
-.smallletters:hover {color: white;}
-.bigletters {
-  font-size: 9vw;
-  text-decoration: none;
-  color: white;
-}
-.bigletters:hover {color: white;}
-.logoImage{
-  height: 25vh;
-}
-.reveal{
-  background: red;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 2s all ease;
-}
-.reveal.active{
-  transform: translateY(0);
-  opacity: 1;
-}
 
 /* student.js */
 .banner img {
