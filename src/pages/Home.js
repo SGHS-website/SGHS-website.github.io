@@ -14,7 +14,23 @@ const Home = () => {
                     <h2>section2</h2>
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
-                    <h2>recent news!</h2>
+                    <div id="topbox">
+                        Recent News
+                    </div>
+                    <div id="imgbox">
+                        <div>
+                            <p>something</p>
+                        </div>
+                        <div>
+                            <p>something</p>
+                        </div>
+                        <div>
+                            <p>something</p>
+                        </div>
+                    </div>
+                    <div id="bottombox">
+                        01/06 ← →
+                    </div>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
                     <h2>section4</h2>
