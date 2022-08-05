@@ -1,6 +1,6 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
-import keywordVideo from "../images/video.mp4"
+import keywordVideo from "../images/video1.mp4"
 import keywordVideo2 from "../images/video2.mp4"
 import schoolLogo from "../images/logo.png"
 import '../styles/App.css'
