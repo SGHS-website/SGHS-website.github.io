@@ -11,7 +11,7 @@ const Home = () => {
                     <img src={schoolBackground} className="backgroundImage" />
                 </ParallaxLayer>
                 <ParallaxLayer id="two" offset={1} speed={0.5}>
-                    <h2>section2</h2>
+                    <h2>Section2</h2>
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
                     <h2>section3</h2>
