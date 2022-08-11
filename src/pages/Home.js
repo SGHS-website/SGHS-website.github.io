@@ -13,10 +13,10 @@ const Home = () => {
                     <img src={schoolBackground} className="backgroundImage" />
                 </ParallaxLayer>
                 <ParallaxLayer id="two" offset={1} speed={0.5}>
-                    <video src={keywordVideo} autoplay="autoplay" muted loop="true" width="80%" playsInline></video>
+                    <video src={keywordVideo} autoplay="autoplay" muted loop="true" width="85%" playsInline></video>
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
-                    <video src={keywordVideo2} autoplay="autoplay" muted loop="true" width="80%" playsInline></video>
+                    <video src={keywordVideo2} autoplay="autoplay" muted loop="true" width="70%" playsInline></video>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
                 </ParallaxLayer>
