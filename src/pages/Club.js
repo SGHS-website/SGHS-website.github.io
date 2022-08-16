@@ -1,6 +1,16 @@
 import React from 'react';
+import schoolBackground from "../images/background.jpg"
+import studentCouncil from "../images/studentCouncil.png"
 const Club = () => {
-    return <h1>Club</h1>;
+    return(
+      <body>
+        <div className='banner'>
+          <img src={schoolBackground}></img>
+          <h2>Club</h2>
+        </div>
+      
+      </body>
+    );
   };
   
 export default Club;
