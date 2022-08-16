@@ -1,7 +1,6 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
 import keywordVideo from "../images/video1.mp4"
-import keywordVideo2 from "../images/video2.mp4"
 import schoolLogo from "../images/logo.png"
 import '../styles/App.css'
 import { Parallax, ParallaxLayer } from "@react-spring/parallax"
@@ -17,9 +16,12 @@ const Home = () => {
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
                 </ParallaxLayer>
-                <ParallaxLayer id="four" offset={3} speed={0.5}>
+                <Parallax Layer id="four" offset={3} speed={0.5}>
                 </ParallaxLayer>
             </Parallax>
+            <div className="footer">
+
+            </div>
         </div>
     )
 };
