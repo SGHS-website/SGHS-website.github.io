@@ -2,7 +2,45 @@ body{
   background-color: black;
   color: white;
 }
-
+.Club1{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.academics{
+  text-align: center;
+  position: absolute;
+  font-size: 2vw;
+  margin-left: 12%;
+  margin-top: -14.5%;
+}
+.arts{
+  text-align: center;
+  position: absolute;
+  font-size: 2vw;
+  margin-left: 50%;
+  margin-top: -14.5%;
+}
+.volunteering{
+  text-align: center;
+  position: absolute;
+  font-size: 2vw;
+  margin-left: 10.5%;
+  margin-top: -14.5%;
+}
+.sports{
+  text-align: center;
+  position: absolute;
+  font-size: 2vw;
+  margin-left: 49%;
+  margin-top: -15%;
+  z-index: 1;
+}
+.Club1 img{
+  width: 40%;
+  position: relative;
+  margin:5%;
+}
 .category{
   border-bottom: solid 2px;
   border-width: 20%;
@@ -58,41 +96,3 @@ body{
 }
 
 
-.content {
-    width: 500px;
-    height: 400px;
-    background-image: url("https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png");
-    background-size: 150px 150px;
-    display:flex;
-    float:left;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 150px;
-    margin-right: 50px;
-    position:relative;
-  }
-
-  .content1 {
-    position: absolute;
-    top: 67%;
-    left: 26%;
-    transform: translate( -50%, -50%);
-  }
-  .content2 {
-    position: absolute;
-    top: 67%;
-    left: 72%;
-    transform: translate( -50%, -50%);
-  }
-  .content3 {
-    position: absolute;
-    top: 137%;
-    left: 26%;
-    transform: translate( -50%, -50%);
-  }
-  .content4 {
-    position: absolute;
-    top: 137%;
-    left: 72%;
-    transform: translate( -50%, -50%);
-  }

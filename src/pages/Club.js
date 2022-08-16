@@ -9,23 +9,15 @@ const Club = () => {
         <img src={schoolBackground}></img>
         <h2>Club</h2>
       </div>
-      <div className="Club">
-        <div className="content"></div>
-        <div className="content1">
-          <h2>ACADEMICS</h2>
-        </div>
-        <div className="content"></div>
-        <div className="content2">
-          <h2>ARTS</h2>
-        </div>
-        <div className="content"></div>
-        <div className="content3">
-          <h2>SPORTS</h2>
-        </div>
-        <div className="content"></div>
-        <div className="content4">
-          <h2>VOLUNTEERING</h2>
-        </div>
+      <div className="Club1">
+          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
+          <p className="academics">ACADEMICS</p>
+          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
+          <p className="arts">ARTS</p>
+          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
+          <p className="sports">SPORTS</p>
+          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
+          <p className="volunteering">VOLUNTEERING</p>
       </div>
       <h1 class="category"> ACADEMICS </h1>
       <div>
