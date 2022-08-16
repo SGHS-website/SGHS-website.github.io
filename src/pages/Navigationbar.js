@@ -1,13 +1,15 @@
 import { Nav, Navbar, NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import React from 'react';
+import sghs from "../images/sghs.png"
 const Navigationbar = () => {
     return (
         <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav className="justify-content-end" style={{ width: "100%", fontSize: "20px", marginBottom: "2px", marginTop:"-2px"}}>
-                <p style={{width: "10", fontSize: "12px", textAlign: "left", marginTop: "6px", marginBottom: "-6px", marginRight:"50%"}}>Seoul Global <br></br>High School</p>
+                <img src={sghs} style={{objectFit: "scale-down", marginLeft:"2%", marginRight:"0.5%"}}></img>
+                <p style={{width: "10", fontSize: "12px", textAlign: "left", marginTop: "6px", marginBottom: "-6px", marginRight:"48%"}}>Seoul Global <br></br>High School</p>
                     <NavLink  eventKey="1" as={Link} to="/" style={{marginRight:"2%"}}>Home</NavLink>
                     <NavLink  eventKey="2" as={Link} to="/club" style={{marginRight:"2%"}}>Club</NavLink>
                     <NavLink  eventKey="3" as={Link} to="/event" style={{marginRight:"2%"}}>Event</NavLink>
