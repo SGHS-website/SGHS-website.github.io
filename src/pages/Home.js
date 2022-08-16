@@ -16,7 +16,7 @@ const Home = () => {
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
                 </ParallaxLayer>
-                <Parallax Layer id="four" offset={3} speed={0.5}>
+                <ParallaxLayer id="four" offset={3} speed={0.5}>
                 </ParallaxLayer>
             </Parallax>
             <div className="footer">
