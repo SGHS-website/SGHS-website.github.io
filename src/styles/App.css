@@ -186,3 +186,86 @@ body {
     }
   }
 }
+
+/*Footer*/
+Footer{
+  position: absolute;
+  width: 1446px;
+  height: 327px;
+  left: -2px;
+  top: 6184px;
+  border-top: 3px solid white;
+}
+
+.first{
+  position: absolute;
+  width: 988px;
+  height: 244px;
+  left: 227px;
+  top: 6267px;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+
+  border-top: solid 3px white;
+  
+}
+
+.first p{
+  padding: 10px;
+}
+
+.last p{
+  position: absolute;
+  width: 163px;
+  height: 36px;
+  left: 1052px;
+  top: 6267px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+
+}
+
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1085px;
+  top: 6334px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1135px;
+  top: 6334px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1185px;
+  top: 6334px;
+}
+
+.설국다움{
+  position: absolute;
+  width: 164px;
+  height: 85px;
+  left: 1085px;
+  top: 6364px;
+}
