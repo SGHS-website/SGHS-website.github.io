@@ -14,22 +14,22 @@ const Home = () => {
                     <h2>section2</h2>
                 </ParallaxLayer>
                 <ParallaxLayer id="three" offset={2} speed={0.5}>
-                    <div id="topbox">
+                    <div id="section3_title">
                         Recent News
                     </div>
-                    <div id="imgbox">
-                        <div>
-                            <p>something</p>
-                        </div>
-                        <div>
-                            <p>something</p>
-                        </div>
-                        <div>
-                            <p>something</p>
-                        </div>
-                    </div>
-                    <div id="bottombox">
-                        01/06 ← →
+                    <div id="section3_content">
+                        <div className="item"><img src="https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg"></img></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>                  
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
