@@ -18,8 +18,8 @@ const Home = () => {
                         Recent News
                     </div>
                     <div id="section3_content">
-                        <div className="item"><img id="img1" src="https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg"></img></div>
-                        <div className="item"></div>
+                        <div className="item" id="item1"></div>
+                        <div className="item" id="item2"></div>
                         <div className="item"></div>
                         <div className="item"></div>
                         <div className="item"></div>
