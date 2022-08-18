@@ -2,7 +2,9 @@ body{
     background-color: black;
     color: white;
 }
-
+h2{
+    background-color: rgba(255, 255, 255, 0);
+}
 .category1{
     border-bottom: solid 2px;
     border-width: 20%;
@@ -29,6 +31,7 @@ body{
     margin-left: 40px;
     margin-top: 60px;
     font-size: large;
+    background-color: rgba(240, 248, 255, 0);
 }
 .sub-category{
     display: flex;
@@ -48,19 +51,14 @@ body{
 .sub-category h2{
     text-align: center;
     position: relative;
-	top: -60%;
+	top: -55%;
     font-size: 20px;
-}
-.sub-category h2 .bio{
-    text-align: center;
-    position: relative;
-	top: -40%;
-    font-size: 20px;
+    font-weight: bold;
 }
 .sub-category img{
     width: 95%;
     height: 95%;
     margin: 2.5%;
 	vertical-align: middle;
-    opacity: 60%;
+    opacity: 40%;
 }
