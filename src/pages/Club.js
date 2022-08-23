@@ -8,7 +8,6 @@ const Club = () => {
           <img src={schoolBackground}></img>
           <h2>Club</h2>
         </div>
-      
       </body>
     );
   };

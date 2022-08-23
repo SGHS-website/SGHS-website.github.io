@@ -7,7 +7,7 @@ import Competition from './Competition';
 import Student from './Student';
 import Faq from './Faq';
 import Post from './Post';
-
+import Footer from './Footer'
 import Navigationbar from './Navigationbar';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
                 <Route path='/faq' element={<Faq />}/>
                 <Route path='/post' element={<Post />}/>
             </Routes>
-            
+            <Footer />
         </Router>
     </div>
   );

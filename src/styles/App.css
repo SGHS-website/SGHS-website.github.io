@@ -187,22 +187,74 @@ body {
   }
 }
 
-/*Footer*/
-Footer{
-  position: absolute;
-  width: 1446px;
+
+/* Footer */
+.footer{
+  
+  width: 100vw;
   height: 327px;
-  left: -2px;
-  top: 6184px;
-  border-top: 3px solid white;
+  bottom: 0;
+  border-top: solid 5px white;
+  display: flex;
+  justify-content: space-around;
 }
 
 .first{
+  text-align: left;
+  padding-top: 30px;
+}
+
+.first p{
+  padding-bottom: 30px;
+}
+
+.last{
+  text-align: right;
+}
+
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 400px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 300px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 200px;
+  padding-bottom: 30px;
+}
+
+.설국다움{
+  position: absolute;
+  bottom: 300px;
+  right: 250px;
+}
+
+.last p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  /* 
+.first{
   position: absolute;
   width: 988px;
-  height: 244px;
+  height: 36px;
   left: 227px;
-  top: 6267px;
+  bottom: 300px;
   text-align: left;
 
   font-family: 'Inter';
@@ -212,13 +264,6 @@ Footer{
   line-height: 24px;
 
   color: #FFFFFF;
-
-  border-top: solid 3px white;
-  
-}
-
-.first p{
-  padding: 10px;
 }
 
 .last p{
@@ -226,7 +271,7 @@ Footer{
   width: 163px;
   height: 36px;
   left: 1052px;
-  top: 6267px;
+  bottom: 300px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -235,7 +280,6 @@ Footer{
   line-height: 36px;
 
   color: #FFFFFF;
-
 }
 
 .envelope{
@@ -243,7 +287,7 @@ Footer{
   width: 30px;
   height: 30px;
   left: 1085px;
-  top: 6334px;
+  bottom: 300px;
 }
 
 .insta{
@@ -251,7 +295,7 @@ Footer{
   width: 30px;
   height: 30px;
   left: 1135px;
-  top: 6334px;
+  bottom: 300px;
 }
 
 .image13{
@@ -259,7 +303,7 @@ Footer{
   width: 30px;
   height: 30px;
   left: 1185px;
-  top: 6334px;
+  bottom: 300px;
 }
 
 .설국다움{
@@ -267,5 +311,5 @@ Footer{
   width: 164px;
   height: 85px;
   left: 1085px;
-  top: 6364px;
-}
+  bottom: 300px;
+} */
