@@ -284,3 +284,45 @@ body {
   color: black;
   font-size: 20px;
  }
+
+/*section4*/
+#content1{
+  float: left;
+  width: 60%;
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url(https://media.istockphoto.com/photos/back-view-of-elementary-students-raising-their-arms-on-a-class-picture-id1000887536?b=1&k=20&m=1000887536&s=612x612&w=0&h=bdF4lQZ9OS7Fih-P7OEj_WLiYmrnSQtNKAjC6U2wZx0=);
+}
+#content1 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 380px;
+  background-color: #282c3400;
+}
+#content2{
+  float: right;
+  width: 40%;
+  height: 300px;
+  margin-top: 100px;
+  background-image: url(https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2Nob29sc3xlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+#content2 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 380px;
+  background-color: #282c3400;
+}
+#content3{
+  float: right;
+  width: 40%;
+  height: 200px;
+  margin-bottom: 100px;
+  background-image: url(https://img.freepik.com/free-vector/high-school-concept-illustration_114360-8279.jpg?w=2000);
+}
+#content3 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #282c3400;
+}

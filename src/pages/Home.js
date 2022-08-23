@@ -23,48 +23,59 @@ const Home = () => {
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item2">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item3">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item4">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item5">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item6">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item7">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item8">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item9">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item10">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item11">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
                         <div className="item" id="item12">
-                        <h2>Title</h2>
+                            <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p></div>                  
+                    </div>
+                    <div id="section4_content">
+                        <div className="content" id="content1">
+                           <p>I'm sleepy. I want to go home. BYE</p> 
+                        </div>
+                        <div className="content" id="content2">
+                           <p>Tomorrow we have science test. BYE</p>
+                        </div>
+                        <div className="content" id="content3">
+                           <p>On Friday, we go home. Let's go. BYE</p>
+                        </div>
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
