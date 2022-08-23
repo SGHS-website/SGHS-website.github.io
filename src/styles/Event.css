@@ -1,0 +1,34 @@
+.Sc-Ev{
+    border-bottom: solid 2px;
+    border-width: 20%;
+    border-color: white;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-top: 2%;
+    margin-right: 40%;
+    text-align: left; 
+  }
+  .event{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  p {
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    font-size: 2vw;
+    
+  }
+  img{
+    width: 40%;
+    position: relative;
+    margin:1.5%;
+  }
+  .e1{
+    margin-left: 18%;
+    margin-top: -16%;
+  }
+  .e3{
+    margin-left: 18%;
+    margin-top: 10%;
+  }
