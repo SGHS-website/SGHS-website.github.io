@@ -18,7 +18,10 @@ const Home = () => {
                         Recent News
                     </div>
                     <div id="section3_content">
-                        <div className="item" id="item1"></div>
+                        <div className="item" id="item1">
+                            <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
                         <div className="item" id="item2"></div>
                         <div className="item"></div>
                         <div className="item"></div>
