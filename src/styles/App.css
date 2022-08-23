@@ -271,6 +271,13 @@ body {
 /*Recent News*/
 h2 {
   padding: 20px;
-  border-bottom: solid 5px white;
+  border-bottom: solid 3px white;
   background-color: rgba(204, 204, 204, 0);
+  text-align: left;
 }
+
+p{
+  padding: 20px;
+  background-color: #282c3400;
+  text-align: left;
+ }
