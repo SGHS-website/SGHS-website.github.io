@@ -269,15 +269,18 @@ body {
 }
 
 /*Recent News*/
-h2 {
+#item1 h2 {
   padding: 20px;
-  border-bottom: solid 3px white;
+  border-bottom: solid 1px black;
   background-color: rgba(204, 204, 204, 0);
   text-align: left;
+  color: black;
 }
 
-p{
+#item1 p{
   padding: 20px;
   background-color: #282c3400;
   text-align: left;
+  color: black;
+  font-size: 20px;
  }

@@ -22,17 +22,49 @@ const Home = () => {
                             <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
                         </div>
-                        <div className="item" id="item2"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>
-                        <div className="item"></div>                  
+                        <div className="item" id="item2">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item3">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item4">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item5">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item6">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item7">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item8">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item9">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item10">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item11">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p>
+                        </div>
+                        <div className="item" id="item12">
+                        <h2>Title</h2>
+                            <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p></div>                  
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
