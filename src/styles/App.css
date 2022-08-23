@@ -268,3 +268,9 @@ body {
   background-color: white;
 }
 
+/*Recent News*/
+h2 {
+  padding: 20px;
+  border-bottom: solid 5px white;
+  background-color: rgba(204, 204, 204, 0);
+}
