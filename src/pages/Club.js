@@ -6,11 +6,11 @@ const Club = () => {
         <h1 class="category1"> ACADEMICS </h1>
           <div>
             <ul class="list1">
-              <li><h2><b> SOCIETY </b></h2></li>
+            <li><b><h2> SOCIETY </h2></b></li>
               <div class="sub-category">
                 <div class="club"> 
                     <img src={require("../images/img/도담다담.jpg")}/>
-                    <h2> 도담다담 </h2> 
+                    <h2> 도담다담 </h2>
                 </div>
                 <div class="club"> 
                     <img src={require("../images/img/베르데.jpg")}/> 
