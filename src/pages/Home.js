@@ -66,20 +66,21 @@ const Home = () => {
                             <h2>Title</h2>
                             <p>Heyyyyyyyyyyyyyyyy. This is recents news. blah blah blah blahblah blahblah blahvblah blahblah blahblah blah </p></div>                  
                     </div>
-                    <div id="section4_content">
-                        <div className="content" id="content1">
-                           <p>I'm sleepy. I want to go home. BYE</p> 
-                        </div>
-                        <div className="content" id="content2">
-                           <p>Tomorrow we have science test. BYE</p>
-                        </div>
-                        <div className="content" id="content3">
-                           <p>On Friday, we go home. Let's go. BYE</p>
-                        </div>
-                    </div>
+                    
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
                     <h2>section4</h2>
+                    <div id="section4_content">
+                        <div className="section" id="section1">
+                           <p>I'm sleepy. I want to go home. BYE</p> 
+                        </div>
+                        <div className="section" id="section2">
+                           <p>Tomorrow we have science test. BYE</p>
+                        </div>
+                        <div className="section"  id="section3">
+                           <p>On Friday, we go home. Let's go. BYE</p>
+                        </div>
+                    </div>
                 </ParallaxLayer>
             </Parallax>
         </div>
