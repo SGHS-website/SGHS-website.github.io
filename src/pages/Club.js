@@ -4,7 +4,6 @@ const Club = () => {
     return(
       <body>
         <h1 class="category1"> ACADEMICS </h1>
-        <hr color="white;"></hr>
           <div>
             <ul class="list1">
             <li><b><h2> SOCIETY </h2></b></li>
