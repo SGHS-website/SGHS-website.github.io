@@ -12,8 +12,8 @@ const Navigationbar = () => {
                     <NavLink  eventKey="2" as={Link} to="/club">Club</NavLink>
                     <NavLink  eventKey="3" as={Link} to="/event">Event</NavLink>
                     <NavLink  eventKey="4" as={Link} to="/competition">Competition</NavLink>
-                    <NavLink  eventKey="5" as={Link} to="/student">Stuent</NavLink>
-                    <NavLink  eventKey="6" as={Link} to="/faq">Faq</NavLink>
+                    <NavLink  eventKey="5" as={Link} to="/student">Student</NavLink>
+                    <NavLink  eventKey="6" as={Link} to="/faq">FAQ</NavLink>
                 </Nav>
             </Navbar.Collapse>     
         </Navbar>
