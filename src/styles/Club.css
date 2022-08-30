@@ -30,7 +30,9 @@ h2{
     margin-right: 40%;
     float: left;
 }
-
+.list1, .list2 {
+    margin-bottom: 0;
+}
 .list1 li{
     margin-left: 40px;
     margin-top: 40px;
