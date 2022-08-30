@@ -11,8 +11,8 @@ const Navigationbar = () => {
                 <img src={sghs} style={{objectFit: "scale-down", marginLeft:"2%", marginRight:"0.5%"}}></img>
                 <p style={{width: "10", fontSize: "12px", textAlign: "left", marginTop: "6px", marginBottom: "-6px", marginRight:"48%"}}>Seoul Global <br></br>High School</p>
                     <NavLink  eventKey="1" as={Link} to="/" style={{marginRight:"2%"}}>Home</NavLink>
-                    <NavLink  eventKey="2" as={Link} to="/club" style={{marginRight:"2%"}}>Club</NavLink>
-                    <NavLink  eventKey="3" as={Link} to="/event" style={{marginRight:"2%"}}>Event</NavLink>
+                    <NavLink  eventKey="2" as={Link} to="/newclub" style={{marginRight:"2%"}}>Club</NavLink>
+                    <NavLink  eventKey="3" as={Link} to="/eventde" style={{marginRight:"2%"}}>Event</NavLink>
                     <NavLink  eventKey="4" as={Link} to="/competition" style={{marginRight:"2%"}}>Competition</NavLink>
                     <NavLink  eventKey="5" as={Link} to="/student" style={{marginRight:"2%"}}>Student</NavLink>
                     <NavLink  eventKey="6" as={Link} to="/faq" style={{marginRight:"2%"}}>FAQ</NavLink>
