@@ -1,26 +1,27 @@
 import React from 'react';
-import schoolBackground from "../images/background.jpg"
-import "../../src/styles/newclub.css";
+import schoolBackground from "../images/background.jpg";
+import studentCouncil from "../images/studentCouncil.png"
+import ".../src/styles/newclub.css";
 const Club = () => {
-    return (
-    <>
-      <div className='banner'>
+    return(
+    <body>
+      <div className="banner">
         <img src={schoolBackground}></img>
         <h2>Club</h2>   
       </div>
       <div className="Club1">
           <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="academics">ACADEMICS</p>
+          <p className="academics"><a href= "#academics"> ACADEMICS </a></p>
           <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="arts">ARTS</p>
+          <p className="arts"><a href= "#arts"> ARTS </a></p>
           <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="sports">SPORTS</p>
+          <p className="sports"><a href= "#sports"> SPORTS </a></p>
           <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="volunteering">VOLUNTEERING</p>
+          <p className="volunteering"><a href= "#volunteering"> VOLUNTEERING</a></p>
       </div>
 
-      <h1 class="category1"> ACADEMICS </h1>
-          <div>
+    <h1 class="category1"><div id="academics"> ACADEMICS </div></h1>
+        <div>
             <ul class="list1">
             <li><b><h2> SOCIETY </h2></b></li>
               <div class="sub-category">
@@ -154,7 +155,7 @@ const Club = () => {
         </ul>
       </div>
 
-    <h1 class="category2"> ARTS </h1>
+    <h1 class="category2"><div id="arts"> ARTS </div></h1>
     <div>
         <ul class="list1">
             <div class="sub-category">
@@ -198,7 +199,7 @@ const Club = () => {
         </ul>
     </div>
 
-    <h1 class="category2"> SPORTS </h1>
+    <h1 class="category2"><div id="sports"> SPORTS </div></h1>
     <div>
         <ul class="list1">
             <div class="sub-category">
@@ -246,7 +247,7 @@ const Club = () => {
         </ul>
     </div>
 
-    <h1 class="category2"> VOLUNTEERING </h1>
+    <h1 class="category2"><div id="volunteering"> VOLUNTEERING </div></h1>
     <div>
         <ul class="list1">
             <div class="sub-category">
@@ -277,10 +278,10 @@ const Club = () => {
             </div>
         </ul>
     </div>
-    </>
-    );
-
-}
+    
+    </body>
+    );;
+};
 
   
 export default Club;
