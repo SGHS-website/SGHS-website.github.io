@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/Club.css";
+import "../styles/eventde.css";
 const Club = () => {
     return(
       <body>
