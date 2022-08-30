@@ -190,7 +190,6 @@ body {
 
 /* Footer */
 .footer{
-  
   width: 100vw;
   height: 327px;
   bottom: 0;
@@ -212,6 +211,13 @@ body {
   text-align: right;
 }
 
+.last p{
+  padding-top: 30px;
+}
+
+.SGlogo {
+  width: 80px;
+}
 .envelope{
   position: absolute;
   width: 30px;
@@ -244,10 +250,7 @@ body {
   right: 250px;
 }
 
-.last p{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
   /* 
 .first{
   position: absolute;

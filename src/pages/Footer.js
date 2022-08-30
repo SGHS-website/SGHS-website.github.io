@@ -1,8 +1,10 @@
 import React from "react";
+import SGLogo from "../images/logo.png"
 
 const Footer = () =>{
     return(
         <div className="footer">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
             <div className="first">
                 <p>[03066]서울 종로구 성균관로13길 40 <br></br> (명륜1가, 서울국제고등학교)</p>
                 <p> Sponsored by 종로구청 <br></br> Developed by 설국다움</p>
@@ -10,10 +12,9 @@ const Footer = () =>{
             </div>
             <div className="last">
                 <p>Contact Us</p>
-                <img href="envelope.png" className="envelope"></img>
-                <img href="insta.png" className="insta"></img>
-                <img href="image 13.png" className="image13"></img>
-                <img href="설국다움.png" className="설국다움"></img>
+                <img src={ SGLogo } className="SGlogo"></img>
+                <span class="material-symbols-outlined">mail</span>
+                
             </div>
         </div>
     );
