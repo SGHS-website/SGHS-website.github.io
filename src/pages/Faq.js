@@ -1,10 +1,9 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
 import "../../src/styles/Faq.css";
-
 const Faq = () => {
     return(
-      <body>
+      <body style={{backgroundColor: "black"}}>
         <div className='banner'>
           <img src={schoolBackground}></img>
           <h2>FAQs</h2>
