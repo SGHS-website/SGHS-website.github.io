@@ -25,19 +25,21 @@ const Student = () => {
           </div> 
         </div>
         <div id='councilPop' className='popup'>
+          <a href="#">&times;</a>
           <p>
-            (council)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          councilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncil
           </p>
         </div>
         <div id='courtPop' className='popup'>
           <a href="#">&times;</a>
           <p>
-            (court)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          courtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourt
           </p>
         </div>
         <div id='congressPop' className='popup'>
+          <a href="#">&times;</a>
           <p>
-            (congress)Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          congresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongress
           </p>
         </div>
       </body>
