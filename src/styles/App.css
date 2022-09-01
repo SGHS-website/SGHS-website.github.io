@@ -18,6 +18,56 @@ body {
 
 }
 
+/*Club_detail*/
+/*Club_detail*/
+/*Club_detail*/
+
+.banner {
+  margin: 0;
+}
+
+.club_content {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  position: relative;
+}
+
+.club_logo {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.club_logo img {
+  width: 500px;
+  height: 500px;
+}
+
+.club_logo h4 {
+  text-align: right;
+}
+
+.club_intro {
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.club_intro h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.club_intro h4 {
+  font-size: 35px;
+}
+
+.club_leaders {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 /* Navigation.js */
 .App {
   text-align: center;
