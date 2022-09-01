@@ -285,6 +285,22 @@ body {
   font-size: 1vw;
  }
 
+ #item2 h2{
+  padding: 20px;
+  border-bottom: solid 1px black;
+  background-color: rgba(204, 204, 204, 0);
+  text-align: left;
+  color: black;
+}
+
+#item2 p{
+  padding: 20px;
+  background-color: #282c3400;
+  text-align: left;
+  color: black;
+  font-size: 1vw;
+ }
+
  #item3 h2{
   padding: 20px;
   border-bottom: solid 1px black;
@@ -299,7 +315,7 @@ body {
   text-align: left;
   color: black;
   font-size: 1vw;
- }
+}
 
 
 /*section4*/
