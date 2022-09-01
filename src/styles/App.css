@@ -1,8 +1,5 @@
 /* overall */
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
-=======
->>>>>>> 65d65b652c6d3de3c9bba3509f9356afe591a748
 * {
   list-style-type: none;
   padding: 0;
@@ -10,10 +7,7 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: black;
-<<<<<<< HEAD
   font-family: 'Inter', sans-serif;
-=======
->>>>>>> 65d65b652c6d3de3c9bba3509f9356afe591a748
 }
 
 body {
