@@ -4,29 +4,28 @@ const Club = () => {
     return(
       <body>
         <h1 class="eventname"> 연합학술제 </h1>
-          <div>
-            <h2 class="eventdate"> 
-            <p> 2021.01.01 </p>
-            <p> 설명: 나나나나나나ㅏ나나나나나나 </p></h2>
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-              <div class="picture">
-                <img src={require("../images/img/도담다담.jpg")}/>
-              </div> 
-        </div>
+          <div class="eventdetail"> 
+            <p class="eventdate"> 2021. 01. 01 </p>
+            <p class="detail"> 설명: 연합학술제는 이러한 행사입니다. 연합학술제는 이 날에 진행되었으며 dadsfhasdkfasdfasd 많은 학생 참여하였 </p>
+          </div>  
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
+          <div class="picture">
+            <img src={require("../images/img/도담다담.jpg")}/>
+          </div> 
       </body>
     );;
 };
