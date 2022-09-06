@@ -3,7 +3,7 @@ import schoolBackground from "../images/background.jpg";
 import "../styles/newclub.css";
 const Club = () => {
     return(
-    <body>
+    <body style={{backgroundColor: "black"}}>
       <div className="banner">
         <img src={schoolBackground}></img>
         <h2>Club</h2>   
