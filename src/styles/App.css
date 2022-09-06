@@ -18,6 +18,56 @@ body {
 
 }
 
+/*Club_detail*/
+/*Club_detail*/
+/*Club_detail*/
+
+.banner {
+  margin: 0;
+}
+
+.club_content {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  position: relative;
+}
+
+.club_logo {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.club_logo img {
+  width: 500px;
+  height: 500px;
+}
+
+.club_logo h4 {
+  text-align: right;
+}
+
+.club_intro {
+  padding: 80px 0;
+  margin: 0 auto;
+}
+
+.club_intro h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.club_intro h4 {
+  font-size: 35px;
+}
+
+.club_leaders {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 /* Navigation.js */
 .App {
   text-align: center;
@@ -64,6 +114,54 @@ body {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
+}
+
+/* home.js section3 */
+#three {
+  justify-content: column;
+}
+
+#section3_title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+
+#section3_content {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: nowrap;
+}
+
+.item { 
+  width: 400px;
+  height: 600px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 25px 0 25px;
+  background-color: white;
+}
+#item1 {
+  background-image: url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.item:hover {
+  box-shadow: 5px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    width: 200px;
+    height: 300px;
+  }
+  
 }
 
 /* student.js */
@@ -114,12 +212,14 @@ body {
   margin-top: 7px;
   background-color:#ffffff00;
 }
-.student h6 {
+.student a h6 {
   position: absolute;
   top: 50%;
   background-color: #ffffff00;
   color: black;
 }
+
+
 
 #council {
   bottom: 0;
@@ -185,4 +285,95 @@ body {
       transform: rotate(360deg) translate(-125px) rotate(-360deg);
     }
   }
+}
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: opacity 500ms;
+}
+
+.popup p {
+  color: black;
+  text-align: left;
+  background-color: white;
+}
+
+/*Recent News*/
+#item1 h2 {
+  padding: 20px;
+  border-bottom: solid 1px black;
+  background-color: rgba(204, 204, 204, 0);
+  text-align: left;
+  color: black;
+}
+
+#item1 p{
+  padding: 20px;
+  background-color: #282c3400;
+  text-align: left;
+  color: black;
+  font-size: 1vw;
+ }
+
+/*section4*/
+#section1{
+  float: left;
+  width: 750px;
+  height: 600px;
+  background-image: url(https://media.istockphoto.com/photos/back-view-of-elementary-students-raising-their-arms-on-a-class-picture-id1000887536?b=1&k=20&m=1000887536&s=612x612&w=0&h=bdF4lQZ9OS7Fih-P7OEj_WLiYmrnSQtNKAjC6U2wZx0=);
+  background-size: 750px 600px;
+}
+
+#section1 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 550px;
+  background-color: #282c3400;
+}
+#section2{
+  float: right;
+  width: 690px;
+  height: 320px;
+  background-image: url(https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2Nob29sc3xlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-size: 690px 320px;
+}
+#section2 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 320px;
+  background-color: #282c3400;
+}
+#section3{
+  float: right;
+  width: 690px;
+  height: 280px;
+  margin-bottom: 100px;
+  background-image: url(https://img.freepik.com/free-vector/high-school-concept-illustration_114360-8279.jpg?w=2000);
+  background-size: 690px 280px;
+}
+#section3 p{
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 240px;
+  background-color: #282c3400;
 }
