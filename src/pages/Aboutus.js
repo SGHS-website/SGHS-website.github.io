@@ -1,16 +1,14 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
 import "../../src/styles/Aboutus.css";
-const Competition = () => {
-    return (
-      <body style={{backgroundColor:"black"}}>
+
+const Aboutus = () => {
+    return(
+      <body>
         <div className='banner'>
           <img src={schoolBackground}></img>
-          <h2>Competition</h2>
+          <h2>ABOUT US</h2>
         </div>
-        
-        {/*여기부터*/}
-
         <h1 className="who">교장선생님</h1>
         <div className="principal">
             <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
@@ -72,11 +70,8 @@ const Competition = () => {
             <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
         </div>  
         </div>
-
-                {/*여기까지*/}
-
       </body>
-    );
+    );;
   };
   
-export default Competition;
+export default Faq;
