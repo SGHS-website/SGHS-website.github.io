@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import React from 'react';
 import Home from './Home';
-import Club from './newclub';
+import Club from './Club';
 import Event from './Event';
 import Competition from './Competition';
 import Student from './Student';
