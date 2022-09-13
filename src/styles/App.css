@@ -68,6 +68,58 @@ body {
   object-fit: cover;
 }
 
+/* home.js section3 */
+#three {
+  justify-content: column;
+}
+
+#section3_title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+
+#section3_content {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: nowrap;
+}
+
+.item { 
+  width: 400px;
+  height: 600px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 25px 0 25px;
+  background-color: white;
+}
+
+.item h2, .item p {
+  background: none;
+}
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12{
+  background-image: url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.item:hover {
+  box-shadow: 5px 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    width: 200px;
+    height: 300px;
+  }
+  
+}
+
 /* student.js */
 .banner img {
   width: 100%;
