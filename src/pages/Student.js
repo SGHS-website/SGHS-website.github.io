@@ -13,17 +13,34 @@ const Student = () => {
           <div className='circle'></div>
           <div className='student' id='council'>
             <img src={studentCouncil}/>
-            <h6>Student Council</h6>
+            <a href='#councilPop'><h6>Student Council</h6></a>
           </div>
           <div className='student' id='court'>
             <img src={studentCouncil}/>
-            <h6>Student Court</h6>
+            <a href='#courtPop'><h6>Student Court</h6></a>
           </div>
           <div className='student' id='congress'>
             <img src={studentCouncil}/>
-            <h6>Student Congress</h6>
-          </div>
-          
+            <a href='#congressPop'><h6>Student Congress</h6></a>
+          </div> 
+        </div>
+        <div id='councilPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          councilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncil
+          </p>
+        </div>
+        <div id='courtPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          courtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourt
+          </p>
+        </div>
+        <div id='congressPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          congresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongress
+          </p>
         </div>
       </body>
     );;
