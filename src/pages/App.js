@@ -8,7 +8,7 @@ import Student from './Student';
 import Faq from './Faq';
 import Post from './Post';
 import Eventde from './eventde'
-
+import ClubDetail from './clubDetail'
 import Navigationbar from './Navigationbar';
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
                 <Route path='/faq' element={<Faq />}/>
                 <Route path='/post' element={<Post />}/>
                 <Route path = '/eventde' element={<Eventde/>}></Route>
+                <Route path = '/clubDetail' element={<ClubDetail/>}></Route>
             </Routes>
             
         </Router>
