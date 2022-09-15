@@ -1,6 +1,6 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
-import "../../src/styles/Faq.css";
+import "../styles/Faq.css";
 const Faq = () => {
     return(
       <body style={{backgroundColor: "black"}}>
