@@ -80,7 +80,17 @@ const Home = () => {
                     </div>
                 </ParallaxLayer>
                 <ParallaxLayer id="four" offset={3} speed={0.5}>
-                    section4
+                    <div id="section4_content">
+                        <div id="box1">
+                            <h1 className="boxtext">WE THE STUDENTS,<br></br>DISCOVER OUR<br></br>OWN TALENTS</h1>
+                        </div>
+                        <div id="box2">
+                            <h1 className="boxtext">WE THE STUDENTS,<br></br>INSPIRE THE WORLD BY<br></br>OUR SELF-EMPOWERMENT</h1>
+                        </div>
+                        <div id="box3">
+                            <h1 className="boxtext">WE THE STUDENTS,<br></br>PROMOTE OUR VALUES<br></br>BY ACTION</h1>
+                        </div>
+                    </div>
                 </ParallaxLayer>
             </Parallax>
             <div className="footer">
