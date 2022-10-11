@@ -23,6 +23,11 @@ body{
 .inf-faq span{
     font-size: 25px;
 }
+
+.option{
+    position: absolute;
+    margin-top: 20%;
+}
 .link-in{
     position: absolute;
     text-align: center;
