@@ -54,5 +54,32 @@ h2{
     width: 95%;
     height: 95%;
     opacity: 50%;
-    
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-width: 40%;
+}
+.eventdate{
+    margin-top: 50px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 2px white solid;
+    width: 290px;
+    height: 290px;
+    margin: 1%;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+.pictue img{
+    width: 95%;
+    height: 95%;
+    margin: 2.5%;
+	vertical-align: middle;
+    opacity: 50%;
 }
