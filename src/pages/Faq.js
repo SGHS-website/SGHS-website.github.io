@@ -15,15 +15,12 @@ const Faq = () => {
         <div classname="info">  
           <p className="inf-faq">설문지/오픈채팅방을 통해 질문을 받고 있습니다!<br></br>재학생용과 외부인용
           <span classname="inf-faq-1">(입학 예정자, 입학 희망자)</span>으로 나누어져 있으니 구분하여<br></br>작성해주시기 바랍니다.
-            <br></br>대표 질문은 교육부에서 선발 후 FAQs로 게시합니다.<br></br><br></br><br></br>질문링크</p>
-
-          <p className="link-in">재학생용</p>
-          <p className="link-out">외부인용</p>
-          <p className="faq-line">   </p>
+            <br></br>대표 질문은 교육부에서 선발 후 FAQs로 게시합니다.<br></br><br></br>
+          <h4 classname="">질문링크</h4><br></br><p className="link-in">재학생용</p><br></br><p className="link-out">외부인용</p><br></br><p className="faq-line"></p>
         </div>
         
-        <div class="school">
-      <p id="title">학교</p>
+    <div class="school">
+      <h2 id="title">학교</h2>
       <details class="Q4">
         <summary>정말 수업을 영어로 진행하나요?</summary>
         <p id="a">기본적으로 국어,한국사를 제외한 모든 과목 수업에 영어를 사용합니다. 온라인 클래스 영상이나 수업
@@ -42,7 +39,7 @@ const Faq = () => {
     </div>
     
     <div class="dorm">
-      <p id="title">기숙사</p>
+      <h2 id="title">기숙사</h2>
       <details class="Q1">
         <summary>전원이 기숙사에 사나요?</summary>
         <p id="a">간혹 통학하는 학생들도 있으나 대부분의 학생, 사는 지역에 관계없이 기숙사에서 생활합니다.</p>
@@ -60,7 +57,7 @@ const Faq = () => {
     </div>
     
     <div class="activity">
-      <p id="title">활동</p>
+      <h2 id="title">활동</h2>
       <details class="Q6">
         <summary>다양한 활동을 하다 보면 기본 과목은 공부하기 힘들지 않나요?</summary>
         <p id="a">기본 수업시간뿐만 아니라 방과후,여름방학 강좌,개인 자습시간등을 통해 국영수로 대표되는 기본 과목

@@ -5,14 +5,20 @@ body{
 .question{
     text-align: left;
     font-size: 70px;
-    padding: 2%;
+    padding-left: 10%;
+    padding-bottom: 100px;
 }
+
+.info{
+    margin-bottom: 0px;
+}
+
 .inf-faq{
     position: relative;
     margin-left: 15%;
     margin-right: 15%;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
 }
 .inf-faq span{
     font-size: 25px;
@@ -20,7 +26,7 @@ body{
 .link-in{
     position: absolute;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: 21%;
     color: black;
     font-size: 40px;
@@ -29,10 +35,12 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     border-radius: 5%;
+    
+
 }
 .link-out{
     position: absolute;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: 52%;
     color: black;
     font-size: 40px;
@@ -64,7 +72,7 @@ p{
     padding-top:2%;
 }
 #title{
-    padding-top: 30px;
+  padding-top: 30px;
   font-size: 64px;
   margin-left: 96px;
 }
@@ -79,4 +87,18 @@ p{
 }
 details > summary {
   list-style: none;
+}
+.school{
+ position: absolute; 
+ margin-top: 30%;  
+}
+
+.dorm{
+  position: absolute;
+  margin-top: 90%;
+}
+
+.activity{
+    position: absolute;
+    margin-top: 150%;
 }
