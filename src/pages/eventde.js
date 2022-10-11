@@ -26,7 +26,7 @@ const Club = () => {
               <div class="picture">
                 <img src={require("../images/img/도담다담.jpg")}/>
               </div> 
-        </div>
+         </div>
       </body>
     );;
 };
