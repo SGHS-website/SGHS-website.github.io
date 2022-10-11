@@ -9,7 +9,10 @@ const Faq = () => {
           <h2>FAQs</h2>
         </div>
         <div className="question">
-          <p className="ask">Have a Question?</p>
+          <h3>Have a question?</h3>
+        </div>
+          
+        <div classname="info">  
           <p className="inf-faq">설문지/오픈채팅방을 통해 질문을 받고 있습니다!<br></br>재학생용과 외부인용
           <span classname="inf-faq-1">(입학 예정자, 입학 희망자)</span>으로 나누어져 있으니 구분하여<br></br>작성해주시기 바랍니다.
             <br></br>대표 질문은 교육부에서 선발 후 FAQs로 게시합니다.<br></br><br></br><br></br>질문링크</p>
@@ -18,6 +21,7 @@ const Faq = () => {
           <p className="link-out">외부인용</p>
           <p className="faq-line">   </p>
         </div>
+        
         <div class="school">
       <p id="title">학교</p>
       <details class="Q4">
@@ -36,6 +40,7 @@ const Faq = () => {
         해외대학진학부 선생님들의 상담 등이 있습니다.</p>
       </details>
     </div>
+    
     <div class="dorm">
       <p id="title">기숙사</p>
       <details class="Q1">
@@ -53,6 +58,7 @@ const Faq = () => {
         <p id="a">방배정은 한 학기마다 새로 진행하며, 완전히 랜덤으로, 제비뽑기를 통해 진행하고 있습니다.</p>
       </details>
     </div>
+    
     <div class="activity">
       <p id="title">활동</p>
       <details class="Q6">
@@ -60,6 +66,7 @@ const Faq = () => {
         <p id="a">기본 수업시간뿐만 아니라 방과후,여름방학 강좌,개인 자습시간등을 통해 국영수로 대표되는 기본 과목
         학습도 지원합니다</p>
       </details><div class="border"></div>
+      
       <div class="border"></div>
       <details class="Q8">
         <summary>하루 일과는 어떻게 되나요?</summary>
