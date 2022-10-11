@@ -22,9 +22,27 @@ const Student = () => {
           <div className='student' id='congress'>
             <img src={studentCouncil}/>
             <h6>Student Congress</h6>
-          </div>
-          
+          </div>          
         </div>
+        <div id='councilPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          councilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncil
+          </p>
+        </div>
+        <div id='courtPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          courtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourt
+          </p>
+        </div>
+        <div id='congressPop' className='popup'>
+          <a href="#">&times;</a>
+          <p>
+          congresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongress
+          </p>
+        </div>
+
       </body>
     );;
   };

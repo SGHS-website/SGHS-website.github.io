@@ -292,3 +292,41 @@ body {
     }
   }
 }
+
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 10px 20px 0px #7e8284;
+  border-radius: 10px;
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  transition: opacity 500ms;
+  position: absolute; 
+  right: 10px;
+}
+
+.popup p {
+  color: black;
+  text-align: left;
+  background-color: white;
+  word-wrap: break-word;
+  margin: 30px 20px 0px 20px;
+}
