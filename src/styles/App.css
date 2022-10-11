@@ -92,21 +92,20 @@ body {
 .item { 
   width: 400px;
   height: 600px;
+  padding: 15px;
   flex-grow: 0;
   flex-shrink: 0;
   margin: 0 25px 0 25px;
-  background-color: white;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .item h2, .item p {
   background: none;
 }
-#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9, #item10, #item11, #item12{
-  background-image: url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
+
 
 .item:hover {
   box-shadow: 5px 5px;
@@ -119,6 +118,40 @@ body {
   }
   
 }
+
+/* home.js section3 */
+#section4_content {
+  width: 100%;
+}
+
+#box1 {
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+}
+
+#box2, #box3 {
+  width: 50%;
+  height: 400px;
+  float: right;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+}
+
+.boxtext {
+  background: none;
+  margin: auto;
+}
+
+
 
 /* student.js */
 .banner img {
