@@ -9,7 +9,7 @@ const Faq = () => {
           <h2>FAQs</h2>
         </div>
         <div className="question">
-          <h3>Have a question?</h3>
+          <h2>Have a question?</h2>
         </div>
           
         <div classname="info">  
