@@ -27,33 +27,42 @@
   .e1{
     text-align: center;
     margin-left: 19%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
+    /* text-shadow: 2px 2px 2px black; */
   }
   .e2{
     margin-left: 58%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .e3{
     margin-left: 20%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .e4{
     margin-left: 57%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .se1{
     margin-left: 22%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .se2{
     margin-left: 55%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .se3{
     margin-left: 20%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
   .se4{
     margin-left: 57%;
-    margin-top: -15%;
+    margin-top: -17%;
+    background-color: rgba(240, 248, 255, 0);
   }
