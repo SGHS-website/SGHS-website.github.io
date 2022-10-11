@@ -27,7 +27,7 @@ body{
 .link-in{
     position: absolute;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 50%;
     margin-left: 21%;
     color: black;
     font-size: 40px;
@@ -41,7 +41,7 @@ body{
 }
 .link-out{
     position: absolute;
-    margin-top: 10%;
+    margin-top: 50%;
     margin-left: 52%;
     color: black;
     font-size: 40px;
