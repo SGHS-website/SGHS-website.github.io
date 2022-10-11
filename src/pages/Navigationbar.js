@@ -8,8 +8,9 @@ const Navigationbar = () => {
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
 
-            <img src={sghs} style={{objectFit: "scale-down", marginLeft:"2%", marginRight:"0.5%"}}></img>
-                <p style={{width: "10", fontSize: "0.8vw", textAlign: "left", marginTop:"0.5%"}}>Seoul&nbsp;Global <br></br>High&nbsp;School</p>
+                <img src={sghs} className="navi_img" style={{ objectFit: "scale-down", marginTop:"-8%", marginBottom:"-8%", marginLeft:"-13.5%"}}></img>
+                <p style={{width: "10", fontSize: "0.8vw", textAlign: "left", marginLeft: "5%", marginBottom:"2%", marginTop:"0.5%"}}>Seoul&nbsp;Global <br></br>High&nbsp;School</p>
+
                 <Nav className="justify-content-end" style={{ width: "100%", fontSize: "20px", marginBottom: "2px", marginTop:"-2px"}}>
                     <NavLink  eventKey="1" as={Link} to="/" style={{marginRight:"2%"}}>Home</NavLink>
                     <NavLink  eventKey="2" as={Link} to="/club" style={{marginRight:"2%"}}>Club</NavLink>
