@@ -1,12 +1,14 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
 import studentCouncil from "../images/studentCouncil.png"
+import Footer from './Footer'
+
 const Student = () => {
     return (
       <body>
         <div className='banner'>
           <img src={schoolBackground}></img>
-          <h2>Student</h2>
+          <h2>Student Government</h2>
         </div>
         <div className='trinity'>
           <h3>Student Coucil</h3>
@@ -27,22 +29,22 @@ const Student = () => {
         <div id='councilPop' className='popup'>
           <a href="#">&times;</a>
           <p>
-          councilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncilcouncil
+          councilcouncil councilcouncilc ouncilcouncilco uncilcouncilcouncilcouncilcouncilcouncilcouncilcouncil
           </p>
         </div>
         <div id='courtPop' className='popup'>
           <a href="#">&times;</a>
           <p>
-          courtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourtcourt
+          courtcourtcourtcourtc ourtcourtcourtcourtcourtcourtcourtco urtcourtcourtcourtcourtcourtcourtcourtcourt
           </p>
         </div>
         <div id='congressPop' className='popup'>
           <a href="#">&times;</a>
           <p>
-          congresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongresscongress
+          congresscongresscongresscong resscongresscongresscongresscongr esscongresscongresscongresscongress
           </p>
         </div>
-
+        <Footer/>
       </body>
     );;
   };

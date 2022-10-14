@@ -1,6 +1,8 @@
 import React from 'react';
 import schoolBackground from "../images/background.jpg";
 import "../styles/Club.css";
+import Footer from './Footer'
+
 const Club = () => {
     return(
     <body style={{backgroundColor: "black"}}>
@@ -277,7 +279,7 @@ const Club = () => {
             </div>
         </ul>
     </div>
-    
+    <Footer/>
     </body>
     );;
 };

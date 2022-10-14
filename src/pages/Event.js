@@ -6,6 +6,8 @@ import nurije from "../images/Nurije.png"
 import capable from "../images/Capable3.jpg"
 import vank from "../images/VANKMUN3.jpg"
 import "../../src/styles/Event.css";
+import Footer from './Footer'
+
 import { Link } from "react-router-dom";
 const Event = () => {
     return (
@@ -54,6 +56,7 @@ const Event = () => {
           </Link>
         </div>
         </div>
+        <Footer/>
       </body>
     );;
   };
