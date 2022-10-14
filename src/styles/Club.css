@@ -2,49 +2,25 @@
     background-color: black;
     color: white;
   }
-  
-  .academics{
-    margin-left: 20%;
-    margin-top: -17%;
-    background-color: rgba(240, 248, 255, 0);
+
+.Club1{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+ }
+  .Club1 img{
+    width: 50%;
+    position: relative;
+    margin: 0 5% 0 5%;
+    opacity: 70%;
   }
-  .arts{
-    margin-left: 62%;
-    margin-top: -17%;
-    background-color: rgba(240, 248, 255, 0);
-    
-  }
-  .sports{
-    margin-left: 22%;
-    margin-top: -17%;
-    background-color: rgba(240, 248, 255, 0);
-  }
-  .volunteering{
-    margin-left: 57%;
-    margin-top: -17%;
-    background-color: rgba(240, 248, 255, 0);
+  .Club1 img:hover{
+    opacity: 100%;
   }
   .Club1 p{
-    z-index: 1;
     text-align: center;
-    position: absolute;
-    font-size: 2vw;
+    width: 20%;
   }
-  .Club1 a{
-    text-decoration: none;
-    background-color: rgba(240, 248, 255, 0);
-    color: white;
-  }
-  .Club1 img{
-    width: 40%;
-    position: relative;
-    margin: 1.5%;
-  }
-  .Club1{
-     margin-left: 5%;
-     margin-right: 5%;
-  }
-  
 .category1{
     border-bottom: 2px solid;
     border-width: 40%;
@@ -116,4 +92,7 @@
     margin: 2.5%;
 	  vertical-align: middle;
     opacity: 50%;
+}
+.sub-category img:hover{
+  opacity: 70%;
 }

@@ -19,10 +19,14 @@
     font-size: 2vw;
     
   }
-  img{
+  .event img{
     width: 40%;
     position: relative;
     margin:1.5%;
+    opacity: 70%;
+  }
+  .event img:hover{
+    opacity: 100%;
   }
   .e1{
     text-align: center;

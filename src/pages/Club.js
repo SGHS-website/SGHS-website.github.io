@@ -11,14 +11,22 @@ const Club = () => {
         <h2>Club</h2>   
       </div>
       <div className="Club1">
-          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="academics"><a href= "#academic"> ACADEMICS </a></p>
-          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="arts"><a href= "#art"> ARTS </a></p>
-          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="sports"><a href= "#sport"> SPORTS </a></p>
-          <img src="https://cdn.pixabay.com/photo/2020/09/24/16/50/board-5599231_960_720.png" alt="img"></img>
-          <p className="volunteering"><a href= "#volunteerings"> VOLUNTEERING</a></p>
+        <a href= "#academic">
+            <img src={require("../images/academics.png")}/>
+            <p className="academics"> ACADEMICS </p>
+        </a>
+        <a href= "#art">
+            <img src={require("../images/arts.png")}/>
+            <p className="arts"> ARTS </p>
+        </a>
+        <a href= "#sport">
+            <img src={require("../images/sports.png")}/>
+            <p className="sports"> SPORTS</p>
+        </a>
+        <a href= "#volunteerings">
+            <img src={require("../images/volunteering.png")}/>
+            <p className="volunteering"> VOLUNTEERING</p>
+        </a>
       </div>
 
     <h1 class="category1"><div id="academic"> ACADEMICS </div></h1>
