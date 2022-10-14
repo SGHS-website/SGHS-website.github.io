@@ -15,53 +15,29 @@ const Competition = () => {
         <h1 className="who">Our Team</h1>
         <div className="crew">
             <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
+            <img src={require("../images/aboutus/Daeun.jpg")}/>
                 <p className="member">Daeun Lee | 이다은<br></br>Lead Developer</p>    
             </div>
             <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
+                <img src={require("../images/aboutus/Rian.jpeg")}/>                
                 <p className="member">Rian Park | 박이안<br></br>Lead Designer</p>    
             </div>
             <div className="Us">
-            <img src={require("../images/aboutus/Irene.jpeg")}/>
+                <img src={require("../images/aboutus/Irene.jpeg")}/>
                 <p className="member">Irene Huh | 허서윤 <br></br>Lead Treasurer</p>    
             </div> 
             <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sd o s</p>    
-            </div> 
+                <img src={require("../images/aboutus/Irene.jpeg")}/>
+                <p className="member">Taehui Kang | 강태희 <br></br>Developer</p>    
+            </div>
             <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
+                <img src={require("../images/aboutus/Yeseo.jpeg")}/>
+                <p className="member">Yeseo Shin | 신예서 <br></br>Developer</p>    
+            </div>
             <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div> 
-            <div className="Us">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzAzMjdfODIg/MDAxNDkwNjEwNDA0MzM0.c4SZEA5JFpJcc40a-l2EqRVpjtg2hk57F0NJER3yXoEg.I4JHmmJgg7hxe-bs0CvJkm9FgClJ3am8y8NjTFa420Ug.JPEG.achika0123/muji.jpg?type=w800" alt="img"></img>
-                <p className="member">소감 <br></br>abced sdafjkl;cjfas cijovsdf sdjafiosdfasdhio sdaosd af sdaisd o s</p>    
-            </div>  
+                <img src={require("../images/aboutus/Gaeun.jpeg")}/>
+                <p className="member">Gaeun Kim | 김가은 <br></br>Progress Manager</p>    
+            </div>
         </div>
         <Footer/>
       </body>
