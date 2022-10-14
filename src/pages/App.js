@@ -10,7 +10,7 @@ import Post from './Post';
 import Eventde from './eventde'
 import ClubDetail from './clubDetail'
 import Navigationbar from './Navigationbar';
-
+import Footer from './Footer'
 function App() {
   return (
     <div className="App">
@@ -27,7 +27,7 @@ function App() {
                 <Route path = '/eventde' element={<Eventde/>}></Route>
                 <Route path = '/clubDetail' element={<ClubDetail/>}></Route>
             </Routes>
-            
+            <Footer />
         </Router>
     </div>
   );

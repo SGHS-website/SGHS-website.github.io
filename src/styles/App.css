@@ -332,3 +332,138 @@ body {
   word-wrap: break-word;
   margin: 30px 20px 0px 20px;
 }
+
+/* Footer */
+.footer{
+  width: 100vw;
+  height: 327px;
+  bottom: 0;
+  border-top: solid 5px white;
+  display: flex;
+  justify-content: space-around;
+}
+/* }
+.footer p{
+  font-size: 20px;
+}
+.first{
+  text-align: left;
+  padding-top: 30px;
+  display: block;
+}
+
+.first p{
+  padding-bottom: 30px;
+}
+
+.last{
+  text-align: right;
+}
+
+.last p{
+  padding-top: 30px;
+}
+
+.SGlogo {
+  width: 80px;
+}
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 400px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 300px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 200px;
+  padding-bottom: 30px;
+}
+
+.설국다움{
+  position: absolute;
+  bottom: 300px;
+  right: 250px;
+  width: 50px;
+  height: 30px;
+} */
+
+
+  /* 
+.first{
+  position: absolute;
+  width: 988px;
+  height: 36px;
+  left: 227px;
+  bottom: 300px;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.last p{
+  position: absolute;
+  width: 163px;
+  height: 36px;
+  left: 1052px;
+  bottom: 300px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1085px;
+  bottom: 300px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1135px;
+  bottom: 300px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1185px;
+  bottom: 300px;
+}
+
+.설국다움{
+  position: absolute;
+  width: 164px;
+  height: 85px;
+  left: 1085px;
+  bottom: 300px;
+} */
