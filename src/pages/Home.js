@@ -102,7 +102,7 @@ const Home = () => {
                         </div>
                     </div>
                 </ParallaxLayer>
-                <ParallaxLayer offset={4} speed={0.5} factor={0.3} style={{backgroundColor: "green"}}>
+                <ParallaxLayer offset={4} speed={0.5} factor={0.3}>
                 <div className="footer">
                     <div className="first">
                         <p>[03066] 서울 종로구 성균관로13길 40 

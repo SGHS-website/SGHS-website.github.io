@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Student = () => {
     return (
-      <body>
+      <body style={{backgroundColor:"black"}}>
         <div className='banner'>
           <img src={schoolBackground}></img>
           <h2>Student Government</h2>
