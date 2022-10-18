@@ -1,8 +1,6 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
 import studentCouncil from "../images/studentCouncil.png"
-import fruit from "../images/후르츠.png"
-import 총무부 from "../images/총무부.png"
 import Footer from './Footer'
 
 const Student = () => {
