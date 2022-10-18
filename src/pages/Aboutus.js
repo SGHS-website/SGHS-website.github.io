@@ -39,7 +39,7 @@ const AboutUs = () => {
                 <p className="member">Taehui Kang | 강태희 <br></br>Developer</p>    
             </div>
             <div className="Us">
-                <img src={require("../images/aboutus/Blank.jpeg")}/>
+                <img src={require("../images/aboutus/Seojin.jpeg")}/>
                 <p className="member">Seojin Lee | 이서진 <br></br>Developer</p>    
             </div>
             <div className="Us">
