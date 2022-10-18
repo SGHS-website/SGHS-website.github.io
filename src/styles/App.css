@@ -5,12 +5,11 @@
   margin: 0;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: black;
 }
 
 body {
-  background-color: black;
   -ms-overflow-style: none;
+  min-height: 700px;
 }
 
 ::-webkit-scrollbar {

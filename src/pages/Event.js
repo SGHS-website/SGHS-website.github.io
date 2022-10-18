@@ -11,7 +11,7 @@ import Footer from './Footer'
 import { Link } from "react-router-dom";
 const Event = () => {
     return (
-      <body>
+      <body style={{backgroundColor:"black"}}>
         <div className='banner'>
           <img src={schoolBackground}></img>
           <h2>Event</h2>
