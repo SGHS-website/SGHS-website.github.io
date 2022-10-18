@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './Home';
 import Club from './Club';
 import Event from './Event';
-import AboutUs from './aboutus';
+import AboutUs from './AboutUs';
 import Student from './Student';
 import Faq from './Faq';
 import Eventde from './eventde'
@@ -18,7 +18,7 @@ function App() {
                 <Route exact path='/' element={<Home />}/>
                 <Route path='/club' element={<Club />}/>
                 <Route path='/event' element={<Event />}/>
-                <Route path='/aboutus' element={<AboutUs />}/>
+                <Route path='/aboutUs' element={<AboutUs />}/>
                 <Route path='/student' element={<Student />}/>
                 <Route path='/faq' element={<Faq />}/>
                 <Route path = '/eventde' element={<Eventde/>}/>
