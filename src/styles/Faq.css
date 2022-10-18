@@ -24,6 +24,11 @@ body{
     font-size: 25px;
 }
 
+.질문링크 {
+    position: absolute;
+    padding-left: 650px ;
+}
+
 .link-in{
     position: absolute;
     text-align: center;

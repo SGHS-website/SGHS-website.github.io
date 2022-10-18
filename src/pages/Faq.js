@@ -15,7 +15,7 @@ const Faq = () => {
         <div classname="info">  
           <p className="inf-faq">설문지/오픈채팅방을 통해 질문을 받고 있습니다!<br></br>재학생용과 외부인용
           <span classname="inf-faq-1">(입학 예정자, 입학 희망자)</span>으로 나누어져 있으니 구분하여<br></br>작성해주시기 바랍니다.
-            <br></br>대표 질문은 교육부에서 선발 후 FAQs로 게시합니다.</p><br></br><br></br><p>질문링크</p><br></br>
+            <br></br>대표 질문은 교육부에서 선발 후 FAQs로 게시합니다.</p><br></br><br></br><p className="질문링크">질문링크</p><br></br>
           <p className="link-in">재학생용</p><br></br>
           <p className="link-out">외부인용</p><br></br>
           <p className="faq-line"></p>
