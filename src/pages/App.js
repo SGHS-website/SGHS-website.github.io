@@ -3,14 +3,12 @@ import React from 'react';
 import Home from './Home';
 import Club from './Club';
 import Event from './Event';
-import Competition from './Competition';
+import AboutUs from './aboutus';
 import Student from './Student';
 import Faq from './Faq';
-import Post from './Post';
 import Eventde from './eventde'
 import ClubDetail from './clubDetail'
 import Navigationbar from './Navigationbar';
-
 function App() {
   return (
     <div className="App">
@@ -20,15 +18,14 @@ function App() {
                 <Route exact path='/' element={<Home />}/>
                 <Route path='/club' element={<Club />}/>
                 <Route path='/event' element={<Event />}/>
-                <Route path='/competition' element={<Competition />}/>
+                <Route path='/aboutus' element={<AboutUs />}/>
                 <Route path='/student' element={<Student />}/>
                 <Route path='/faq' element={<Faq />}/>
-                <Route path='/post' element={<Post />}/>
-                <Route path = '/eventde' element={<Eventde/>}></Route>
-                <Route path = '/clubDetail' element={<ClubDetail/>}></Route>
+                <Route path = '/eventde' element={<Eventde/>}/>
+                <Route path = '/clubDetail' element={<ClubDetail/>}/>
             </Routes>
-            
         </Router>
+        
     </div>
   );
 }
