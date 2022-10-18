@@ -1,31 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "ee58121d5bdda7305fd9",
-    "url": "/static/css/main.8769aea6.chunk.css"
+    "revision": "e5d48f04674c43329eea",
+    "url": "/static/css/main.1b89816c.chunk.css"
   },
   {
-    "revision": "ee58121d5bdda7305fd9",
-    "url": "/static/js/main.8b04ea22.chunk.js"
+    "revision": "e5d48f04674c43329eea",
+    "url": "/static/js/main.2f1f2cb9.chunk.js"
   },
   {
-    "revision": "ea1b59ec1b93f7298e16",
-    "url": "/static/js/runtime~main.0f1f34c0.js"
+    "revision": "c32d6075779ae06dc56a",
+    "url": "/static/js/runtime~main.0dfc019d.js"
   },
   {
-    "revision": "de2b038dcc41a5970a0c",
+    "revision": "deb23b4a23dca2fcab10",
     "url": "/static/css/2.57015829.chunk.css"
   },
   {
-    "revision": "de2b038dcc41a5970a0c",
-    "url": "/static/js/2.18b438b5.chunk.js"
+    "revision": "deb23b4a23dca2fcab10",
+    "url": "/static/js/2.53a5369e.chunk.js"
   },
   {
-    "revision": "17dba311bfc1c6f100a4",
-    "url": "/static/js/3.5c90b93e.chunk.js"
-  },
-  {
-    "revision": "5effbe6dacceb6938f4c",
-    "url": "/static/js/4.9eb8d661.chunk.js"
+    "revision": "d95dcb9caaf28c7cef69",
+    "url": "/static/js/3.8a10cef1.chunk.js"
   },
   {
     "revision": "e82e93edf5ddb8d1ba6aece14a4e3bea",
@@ -34,6 +30,14 @@ self.__precacheManifest = [
   {
     "revision": "1f6ceac7c9a443a2dfec1860bb359c48",
     "url": "/static/media/도담다담.1f6ceac7.jpg"
+  },
+  {
+    "revision": "a5369809569edc4e18ad64c495326f6e",
+    "url": "/static/media/Blank.a5369809.jpeg"
+  },
+  {
+    "revision": "cfa9ca3064cbc1c86e8e73af27388c18",
+    "url": "/static/media/logo.cfa9ca30.png"
   },
   {
     "revision": "23be4649dc002b224cb867888afa008b",
@@ -48,6 +52,10 @@ self.__precacheManifest = [
     "url": "/static/media/video1.9d37a819.mp4"
   },
   {
+    "revision": "17960bb4884e37d9f36cca6f9e304db6",
+    "url": "/static/media/sghs.17960bb4.png"
+  },
+  {
     "revision": "28afdd9912684842520f2dfe80c4b4e4",
     "url": "/static/media/ac_01.28afdd99.jpg"
   },
@@ -60,8 +68,24 @@ self.__precacheManifest = [
     "url": "/static/media/VANKMUN3.48182442.jpg"
   },
   {
-    "revision": "cfa9ca3064cbc1c86e8e73af27388c18",
-    "url": "/static/media/logo.cfa9ca30.png"
+    "revision": "0441a45e8c2fc0ddca5c3239ddd69e43",
+    "url": "/static/media/sghsLogo.0441a45e.png"
+  },
+  {
+    "revision": "d5b64846ea82054d77fdbcde8d389aa4",
+    "url": "/static/media/academics.d5b64846.png"
+  },
+  {
+    "revision": "807eb8ede58b3860bbe6ce50474b6a5a",
+    "url": "/static/media/arts.807eb8ed.png"
+  },
+  {
+    "revision": "0e47d3372beb404e9e596946b726f7d2",
+    "url": "/static/media/sports.0e47d337.png"
+  },
+  {
+    "revision": "14d71c225af25a64a75d717eae2d8389",
+    "url": "/static/media/volunteering.14d71c22.png"
   },
   {
     "revision": "62f7ee95cec3853574b15b527336fafb",
@@ -228,11 +252,35 @@ self.__precacheManifest = [
     "url": "/static/media/Irene.017a1af9.jpeg"
   },
   {
-    "revision": "709689384faf69964ecdc46b73614c5d",
-    "url": "/static/media/hi.70968938.md"
+    "revision": "4101f0a129d32178d234911a8986de04",
+    "url": "/static/media/Rian.4101f0a1.jpeg"
   },
   {
-    "revision": "547e531ae7d99c587c7e57c7167882c4",
+    "revision": "7004555514c82734c7ff0a822fae8b18",
+    "url": "/static/media/Haeun.70045555.jpeg"
+  },
+  {
+    "revision": "8ddc063be78ccd03f22329ed2a7fd53a",
+    "url": "/static/media/Hannah.8ddc063b.jpeg"
+  },
+  {
+    "revision": "fc47c2cf6004e461b6a9c6004b7cdd77",
+    "url": "/static/media/Dohyun.fc47c2cf.jpeg"
+  },
+  {
+    "revision": "a5264343b0f3d948682f6c0d63bab09e",
+    "url": "/static/media/Gaeun.a5264343.jpeg"
+  },
+  {
+    "revision": "17675fea9890e0ebb18c2cc6f47a812d",
+    "url": "/static/media/Jinho.17675fea.jpeg"
+  },
+  {
+    "revision": "b97d33acc97a0533a095209e916565f1",
+    "url": "/static/media/Yeseo.b97d33ac.jpeg"
+  },
+  {
+    "revision": "821a4581a9a90b0b3b3fc818c07ba8e3",
     "url": "/index.html"
   }
 ];
