@@ -1,6 +1,6 @@
 import React from "react";
 import schoolBackground from "../images/background.jpg"
-import "../../src/styles/AboutUs.css";
+import "../../src/styles/Aboutus.css";
 import Footer from './Footer'
 const AboutUs = () => {
     return (

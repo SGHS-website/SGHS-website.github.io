@@ -116,8 +116,8 @@ body {
 }
 
 .item { 
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 225px;
   padding: 15px;
   flex-grow: 0;
   flex-shrink: 0;
@@ -131,17 +131,12 @@ body {
 
 .item h2 {
   background: none;
-  margin-bottom: 10px;
+  text-align: center;
+  margin: inherit;
+  padding: inherit;
+  font-size: 30px;
 }
 
-.item p {
-  background: none;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  position: inherit;
-  text-align: center;
-}
 
 
 .item:hover {
@@ -151,7 +146,11 @@ body {
 @media screen and (max-width: 1000px) {
   .item {
     width: 200px;
-    height: 300px;
+    height: 150px;
+  }
+
+  .item h2 {
+    font-size: 20px;
   }
 
 }
@@ -190,6 +189,7 @@ body {
 .boxtext {
   background: none;
   margin: auto;
+  padding: inherit;
 }
 
 #box1:hover, #box2:hover, #box3:hover {
