@@ -1,18 +1,15 @@
 /* overall */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 * {
   list-style-type: none;
   padding: 0;
   margin: 0;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: black;
-  font-family: 'Inter', sans-serif;
 }
 
 body {
-  background-color: black;
   -ms-overflow-style: none;
+  min-height: 700px;
 }
 
 ::-webkit-scrollbar {
@@ -29,7 +26,10 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
-
+.navi_img{
+  margin-left: 20px;
+  height: 50px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -37,14 +37,14 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
+  border-bottom: #fff 1px;
 }
 
 .App-link {
@@ -62,10 +62,138 @@ body {
 }
 
 /* home.js */
+.home{
+  height: 10000;
+}
 .backgroundImage {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
+  opacity: 50%;
+}
+#one .schoolLogo{
+  position: absolute;
+  top: 20vh;
+  right: 47vw;
+  width: 80px;
+  background-color: #ffffff00;
+}
+#one h1{
+  font-size:5.5vw;
+  line-height: 7vw;
+  position: absolute;
+  top: 30vh;
+  right:25vw;
+  background-color: #ffffff00;
+}
+#one h1 p{
+  position: absolute;
+  right: 15vw;
+  background-color: #ffffff00;
+}
+
+
+/* home.js section3 */
+#three {
+  justify-content: column;
+}
+
+#section3_title {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 70px 0 70px 0;
+}
+
+#section3_content {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.item { 
+  width: 400px;
+  height: 600px;
+  padding: 15px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 25px 0 25px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: 0.3s;
+}
+
+.item h2 {
+  background: none;
+  margin-bottom: 10px;
+}
+
+.item p {
+  background: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  position: inherit;
+  text-align: center;
+}
+
+
+.item:hover {
+  box-shadow: 5px 10px 5px #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .item {
+    width: 200px;
+    height: 300px;
+  }
+
+}
+
+/* home.js section4 */
+#section4_content {
+  width: 100%;
+}
+
+#box1 {
+  width: 50%;
+  height: 800px;
+  float: left;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+#box2, #box3 {
+  width: 50%;
+  height: 400px;
+  float: right;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('https://media.euobserver.com/e0e217ad29a2887c28b3732eeef3ee98.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.boxtext {
+  background: none;
+  margin: auto;
+}
+
+#box1:hover, #box2:hover, #box3:hover {
+  opacity: 1;
 }
 
 /* student.js */
@@ -88,7 +216,7 @@ body {
   width: 330px;
   height: 330px;
   border: 1px solid #CCC;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -114,7 +242,7 @@ body {
   height: 40px;
   width: 40px;
   margin-top: 7px;
-  background-color:#ffffff00;
+  background-color:white;
 }
 .student h6 {
   position: absolute;
@@ -147,6 +275,7 @@ body {
   margin: auto;
   animation: circle 6s linear infinite;
 }
+
 
 @keyframes circle {
   0% {
@@ -188,3 +317,172 @@ body {
     }
   }
 }
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px 10px 20px 0px #7e8284;
+  border-radius: 10px;
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 500ms;
+  z-index: 3;
+}
+
+.popup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  transition: opacity 500ms;
+  position: absolute; 
+  right: 10px;
+}
+
+.popup p {
+  color: black;
+  text-align: left;
+  background-color: white;
+  font-size: 16px;
+  display: block;
+  word-wrap: break-word;
+  margin: 30px 20px 0px 20px;
+}
+
+/* Footer */
+.footer{
+  width: 100vw;
+  height: 327px;
+  bottom: 0;
+  border-top: solid 5px white;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p{
+  font-size: 15px;
+}
+.first{
+  margin-left: 100px;
+  text-align: left;
+  margin-top: 30px;
+}
+.last{
+  margin-right: 100px;
+  text-align: right;
+  margin-top: 30px;
+  display: flex;
+}
+
+.SGlogo {
+  height: 40%;
+  width: auto;
+}
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 400px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 300px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 200px;
+  padding-bottom: 30px;
+}
+
+.설국다움{
+  position: absolute;
+  bottom: 300px;
+  right: 250px;
+  width: 50px;
+  height: 30px;
+}
+
+
+  /* 
+.first{
+  position: absolute;
+  width: 988px;
+  height: 36px;
+  left: 227px;
+  bottom: 300px;
+  text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.last p{
+  position: absolute;
+  width: 163px;
+  height: 36px;
+  left: 1052px;
+  bottom: 300px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #FFFFFF;
+}
+
+.envelope{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1085px;
+  bottom: 300px;
+}
+
+.insta{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1135px;
+  bottom: 300px;
+}
+
+.image13{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1185px;
+  bottom: 300px;
+}
+
+.설국다움{
+  position: absolute;
+  width: 164px;
+  height: 85px;
+  left: 1085px;
+  bottom: 300px;
+} */
