@@ -2,6 +2,9 @@ import React from "react";
 import SGLogo from "../images/logo.png"
 import { Link } from "react-router-dom";
 import contactus from"../images/ContactUs.png"
+import mail from "../images/mail.png"
+import instagram from "../images/instagram.png"
+import paper from "../images/paper.png"
 
 const Footer = () =>{
     return(
@@ -13,9 +16,9 @@ const Footer = () =>{
                 <p>@Copyright</p>
             </div>
             <div className="last">
-                <p>Contact Us<img src={contactus} className="contactus"></img></p>
+                <p>Contact Us<img src={mail} className="mail"></img><img src={instagram} className="instagram"></img><img src={paper} className="paper"></img></p>
                 <Link to="/club">
-                <p style={{textDecorationLine: "underline"}}>About Us<img src={ SGLogo } className="SGlogo"></img></p>
+                <p style={{textDecorationLine: "underline"}}> About Us<img src={ SGLogo } className="SGlogo"></img></p>
                 </Link>
             </div>
         </div>

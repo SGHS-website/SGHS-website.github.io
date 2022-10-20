@@ -221,16 +221,7 @@ body {
   width: 80px;
   margin: 10px;
 }
-.envelope{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 400px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
-.insta{
+.mail{
   position: absolute;
   width: 30px;
   height: 30px;
@@ -239,31 +230,24 @@ body {
   padding-bottom: 30px;
 }
 
-.image13{
+.instagram{
   position: absolute;
   width: 30px;
   height: 30px;
-  right: 200px;
+  right: 260px;
+  padding-right: 30px;
   padding-bottom: 30px;
 }
 
-.설국다움{
+.paper{
   position: absolute;
-  bottom: 300px;
-  right: 250px;
-  width: 50px;
+  width: 30px;
   height: 30px;
+  right: 220px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
-.button{
-  border: 0;
-  outline: 0;
-}
-
-.contactus{
-  margin: 10px;
- background-color: #ffffff00;
-}
 
   /* 
 .first{
