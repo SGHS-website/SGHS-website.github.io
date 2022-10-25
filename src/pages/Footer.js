@@ -1,5 +1,6 @@
 import React from "react";
-import SGLogo from "../images/logo.png"
+import SGLogo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () =>{
     return(
@@ -14,12 +15,13 @@ const Footer = () =>{
                 </p>
             </div>
             <div className="last">
-                <p>Contact Us</p>
-                <img src={ SGLogo } className="SGlogo"></img>
-                <span class="material-symbols-outlined">mail</span>
-                
+                <p>
+                    Contact Us
+                    <br/><Link to="AboutUs">About Us</Link>
+                    <img src={ SGLogo } className="SGlogo"></img>
+                </p>
             </div>
         </div>
-    );
+    )
 }
 export default Footer;
