@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import schoolBackground from "../images/background.jpg";
 import "../styles/eventde.css";
-const Club = () => {
+const eventde = () => {
     return(
       <body style={{backgroundColor: "black"}}>
       <div className='banner'>
@@ -17,6 +17,7 @@ const Club = () => {
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   </p>
+                  <p>2021.01.01</p>
           </div>
             <div class="wrap">
             <div class="sticker1">
@@ -52,4 +53,4 @@ const Club = () => {
     );;
 };
   
-export default Club;
+export default eventde;
