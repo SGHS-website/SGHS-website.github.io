@@ -14,15 +14,15 @@ const Student = () => {
           <h3>Student Coucil</h3>
           <div className='circle'></div>
           <div className='student' id='council'>
-            <img src={studentCouncil}/>
+          <a href="#congressPop"><img src={studentCouncil}/></a>
             <a href='#councilPop'><h6>Student Council</h6></a>
           </div>
           <div className='student' id='court'>
-            <img src={studentCouncil}/>
+          <a href="#congressPop"><img src={studentCouncil}/></a>
             <a href='#courtPop'><h6>Student Court</h6></a>
           </div>
           <div className='student' id='congress'>
-            <img src={studentCouncil}/>
+            <a href="#congressPop"><img src={studentCouncil}/></a>
             <a href='#congressPop'><h6>Student Congress</h6></a>
           </div>          
         </div>
@@ -44,6 +44,7 @@ const Student = () => {
           congresscongresscongresscong resscongresscongresscongresscongr esscongresscongresscongresscongress
           </p>
         </div>
+        <div style={{marginTop: "5%"}}></div>
         <Footer/>
       </body>
     );;

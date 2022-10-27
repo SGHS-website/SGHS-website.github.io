@@ -116,8 +116,8 @@ body {
 }
 
 .item { 
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 225px;
   padding: 15px;
   flex-grow: 0;
   flex-shrink: 0;
@@ -131,17 +131,12 @@ body {
 
 .item h2 {
   background: none;
-  margin-bottom: 10px;
+  text-align: center;
+  margin: inherit;
+  padding: inherit;
+  font-size: 30px;
 }
 
-.item p {
-  background: none;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  position: inherit;
-  text-align: center;
-}
 
 
 .item:hover {
@@ -151,7 +146,11 @@ body {
 @media screen and (max-width: 1000px) {
   .item {
     width: 200px;
-    height: 300px;
+    height: 150px;
+  }
+
+  .item h2 {
+    font-size: 20px;
   }
 
 }
@@ -190,6 +189,7 @@ body {
 .boxtext {
   background: none;
   margin: auto;
+  padding: inherit;
 }
 
 #box1:hover, #box2:hover, #box3:hover {
@@ -216,7 +216,7 @@ body {
   width: 330px;
   height: 330px;
   border: 1px solid #CCC;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
@@ -242,7 +242,7 @@ body {
   height: 40px;
   width: 40px;
   margin-top: 7px;
-  background-color:#ffffff00;
+  background-color:white;
 }
 .student h6 {
   position: absolute;
@@ -275,6 +275,7 @@ body {
   margin: auto;
   animation: circle 6s linear infinite;
 }
+
 
 @keyframes circle {
   0% {
@@ -380,8 +381,7 @@ body {
   margin-top: 30px;
   display: flex;
 }
-.last p{
-}
+
 .SGlogo {
   height: 40%;
   width: auto;
