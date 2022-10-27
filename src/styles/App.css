@@ -383,35 +383,17 @@ body {
 }
 
 .SGlogo{
-  max-width: 200px;
+  max-width: 210px;
   max-height: 100px;
   width: 90px;
   height: 80px;
-}
-.envelope{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 400px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-left: 10px;
 }
 
-.insta{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 300px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
-.image13{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 200px;
-  padding-bottom: 30px;
+.contactus img{
+  max-width: 35px;
+  max-height: 35px;
+  padding-left: 10px;
 }
 
 .설국다움{

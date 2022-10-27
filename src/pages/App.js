@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './Home';
 import Club from './Club';
 import Event from './Event';
-import AboutUs from './AboutUs';
+import AboutUs from './Aboutus';
 import Student from './Student';
 import Faq from './Faq';
 import Eventde from './eventde'
