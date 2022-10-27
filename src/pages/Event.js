@@ -19,7 +19,7 @@ const Event = () => {
         <div>
         <h1 className="Sc-Ev">School Events</h1>
         <div className="event">
-          <Link to="/club">
+          <Link to="/eventde">
             <img src={jointconference} alt="img"></img>
           < p className="e1">2021 연합학술제</p>
           </Link>
