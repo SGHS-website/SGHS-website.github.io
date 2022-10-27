@@ -47,6 +47,7 @@ h2{
 }
 details{
     display: flex;
+    position: relative;
 }
 summary{
     outline: none;
@@ -55,14 +56,17 @@ summary{
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
+    position: relative;
 }
 summary:hover{
+    margin-top: 0.1%;
     background-color: rgba(255, 255, 255, 0.885);
     color: black;
 }
 p{
     text-align: left;
     padding-top:2%;
+    position: relative; 
 }
 #title{
     margin-top: 30px;
