@@ -9,6 +9,7 @@ import Faq from './Faq';
 import Eventde from './eventde'
 import ClubDetail from './clubDetail'
 import Navigationbar from './Navigationbar';
+import clubDetail from './clubDetail';
 function App() {
   return (
     <div className="App">

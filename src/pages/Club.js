@@ -2,6 +2,7 @@ import React from 'react';
 import schoolBackground from "../images/background.jpg";
 import "../styles/Club.css";
 import Footer from './Footer'
+import { Link } from "react-router-dom";
 
 const Club = () => {
     return(
@@ -35,8 +36,10 @@ const Club = () => {
             <li><b><h2> SOCIETY </h2></b></li>
               <div class="sub-category">
                 <div class="club"> 
+                <Link to="/clubDetail">
                     <img src={require("../images/img/도담다담.jpg")}/>
                     <h2> 도담다담 </h2>
+                </Link>
                 </div>
                 <div class="club"> 
                     <img src={require("../images/img/베르데.jpg")}/> 
