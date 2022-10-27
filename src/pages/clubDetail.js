@@ -2,12 +2,8 @@ import React from "react";
 import "../styles/clubDetail.css"
 const clubDetail = () => {
     return (
-        <body>
-            <h1 className="heading">도담다담</h1>
-
-            
-            
-            
+        <body style ={{backgroundColor: "black"}}>
+        
             <h1>예술경영 칼럼 (활동)</h1>
             <hr/>
             <h1>간단한 활동 소개 글</h1>
