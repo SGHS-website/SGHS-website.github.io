@@ -13,43 +13,14 @@ const StudentCourt = () => {
           <h1 class="student-detail-name">Student Court</h1>
 
           <div class="Congress-explain">
-                <img src=""></img>
-                <p>학생회/부서 설명</p>
+                <img src="" style={{width: "80%", float:"none"}}></img>
+                <p>About</p>
                 <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 </p>
           </div>
-            <div class="wrap">
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            <div class="sticker1">
-                <img src=""></img>
-            </div>
-            </div>
         <Footer/>
       </body>
     );

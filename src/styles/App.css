@@ -217,13 +217,14 @@ body {
   width: 330px;
   height: 330px;
   border: 1px solid #CCC;
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
   border-radius: 50%;
+  margin-bottom: 10%;
 }
 .trinity h3 {
   position: relative;

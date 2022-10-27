@@ -34,12 +34,13 @@
 .sticker1{
   background-color: #C7C7C7;
   margin: 24px auto;
-  width: 420px;
-  height: 420px;
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
 }
 .wrap {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
   display: flex;
   flex-wrap: wrap;
 }
