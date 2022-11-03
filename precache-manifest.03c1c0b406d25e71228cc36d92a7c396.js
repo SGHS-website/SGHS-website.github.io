@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "e5d48f04674c43329eea",
-    "url": "/static/css/main.1b89816c.chunk.css"
+    "revision": "aa0b96ce4861b616804b",
+    "url": "/static/css/main.cf1f461f.chunk.css"
   },
   {
-    "revision": "e5d48f04674c43329eea",
-    "url": "/static/js/main.2f1f2cb9.chunk.js"
+    "revision": "aa0b96ce4861b616804b",
+    "url": "/static/js/main.2df3c9cd.chunk.js"
   },
   {
-    "revision": "c32d6075779ae06dc56a",
-    "url": "/static/js/runtime~main.0dfc019d.js"
+    "revision": "8d1b24a60328ef7e83b3",
+    "url": "/static/js/runtime~main.fbfcb512.js"
   },
   {
-    "revision": "deb23b4a23dca2fcab10",
-    "url": "/static/css/2.57015829.chunk.css"
+    "revision": "689ff39c916d69be23e8",
+    "url": "/static/css/2.b370ac17.chunk.css"
   },
   {
-    "revision": "deb23b4a23dca2fcab10",
-    "url": "/static/js/2.53a5369e.chunk.js"
+    "revision": "689ff39c916d69be23e8",
+    "url": "/static/js/2.fe173aa3.chunk.js"
   },
   {
-    "revision": "d95dcb9caaf28c7cef69",
-    "url": "/static/js/3.8a10cef1.chunk.js"
+    "revision": "d0c7ccbb85f77c99a826",
+    "url": "/static/js/3.91095169.chunk.js"
   },
   {
     "revision": "e82e93edf5ddb8d1ba6aece14a4e3bea",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/static/media/도담다담.1f6ceac7.jpg"
   },
   {
-    "revision": "a5369809569edc4e18ad64c495326f6e",
-    "url": "/static/media/Blank.a5369809.jpeg"
-  },
-  {
     "revision": "cfa9ca3064cbc1c86e8e73af27388c18",
     "url": "/static/media/logo.cfa9ca30.png"
   },
   {
     "revision": "23be4649dc002b224cb867888afa008b",
     "url": "/static/media/sf1.23be4649.jpg"
+  },
+  {
+    "revision": "a5369809569edc4e18ad64c495326f6e",
+    "url": "/static/media/Blank.a5369809.jpeg"
   },
   {
     "revision": "a4fa5e59aa6de0255801a661340ca268",
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "17960bb4884e37d9f36cca6f9e304db6",
     "url": "/static/media/sghs.17960bb4.png"
+  },
+  {
+    "revision": "ab7e7f00908d6432aa9c6f9ea19f8e09",
+    "url": "/static/media/instagram.ab7e7f00.png"
   },
   {
     "revision": "28afdd9912684842520f2dfe80c4b4e4",
@@ -264,6 +268,10 @@ self.__precacheManifest = [
     "url": "/static/media/Hannah.8ddc063b.jpeg"
   },
   {
+    "revision": "75d919042ba9f673a3972f8a51b8911e",
+    "url": "/static/media/Seojin.75d91904.jpeg"
+  },
+  {
     "revision": "fc47c2cf6004e461b6a9c6004b7cdd77",
     "url": "/static/media/Dohyun.fc47c2cf.jpeg"
   },
@@ -280,7 +288,7 @@ self.__precacheManifest = [
     "url": "/static/media/Yeseo.b97d33ac.jpeg"
   },
   {
-    "revision": "821a4581a9a90b0b3b3fc818c07ba8e3",
+    "revision": "c0b4160b54d52ba5585cef0d23e34904",
     "url": "/index.html"
   }
 ];
