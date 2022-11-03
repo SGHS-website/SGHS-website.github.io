@@ -21,9 +21,9 @@ const Footer = () =>{
                 <p>
                     <div className="contactus">
                         Contact Us
-                        <img src={gmail}></img>
-                        <img src={instagram}></img>
-                        <img src={paper}></img>
+                        <img src={ gmail }></img>
+                        <img src={ instagram }></img>
+                        <img src={ paper }></img>
                     </div>
 
                     <br/><Link to="AboutUs">About Us</Link>
