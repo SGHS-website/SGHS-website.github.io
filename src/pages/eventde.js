@@ -10,16 +10,17 @@ const eventde = () => {
         <h2>EVENTS</h2>
         </div>
         <h1 class="student-detail-name">2022 연합학술제</h1>
-          <div class="Congress-explain">
+        <div class="event-explain">
                 <img src=""></img>
                 <p>설명</p>
                 <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                   </p>
-                  <p>2021.01.01</p>
+                  <p className="eventde-date" style={{marginLeft: "0%"}}>2021.01.01</p>
           </div>
-            <div class="wrap">
+
+        <div class="event-wrap">
             <div class="sticker1">
                 <img src=""></img>
             </div>
@@ -47,7 +48,7 @@ const eventde = () => {
             <div class="sticker1">
                 <img src=""></img>
             </div>
-            </div>
+        </div>
         <Footer/>
       </body>
     );;

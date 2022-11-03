@@ -9,7 +9,7 @@
     text-align: left; 
 }
 
-.Congress-explain img {
+.event-explain img {
 background-color: #C7C7C7;
 width: 400px;
 height: 400px;
@@ -20,12 +20,20 @@ margin-left: 5%;
 margin-right: 3%;
 margin-top: 1%;
 }
-.Congress-explain p{
+.event-explain p{
 position: relative;
 margin-left: 6%;
 margin-right: 5%;
 word-break:break-all;
 background-color: none;
+}
+.eventde-date{
+float: left;
+position: relative;
+background-color: none;
+}
+.event-explain{
+    margin-bottom: 5%;
 }
 
 .sticker1{
@@ -35,7 +43,7 @@ margin-top: 5%;
 width: 400px;
 height: 400px;
 }
-.wrap {
+.event-wrap {
 margin-left: 5%;
 margin-right: 5%;
 display: flex;
