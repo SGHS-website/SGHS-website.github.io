@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/clubDetail.css"
 import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import Footer from '../Footer'
 const clubDetail = () => {
     return (
         <body style={{backgroundColor:"black"}}>
@@ -11,7 +11,7 @@ const clubDetail = () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">동아리명</h1>
+                <h1 class="club-detail-explain">ARTBEAT</h1>
                 <p>동아리 소개글<br></br>~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
