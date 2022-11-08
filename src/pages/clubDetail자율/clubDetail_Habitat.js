@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/clubDetail.css"
 import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
-const clubDetail_물소리바람소리 = () => {
+const clubDetail = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -11,8 +11,8 @@ const clubDetail_물소리바람소리 = () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">물소리바람소리</h1>
-                <p>사물놀이 동아리로 전통 국악을 사랑하는 학생들이 모여있다
+                <h1 class="club-detail-explain">Habitat</h1>
+                <p>모두의 주거환경 마련을 위한 건축봉사동아리
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
@@ -93,4 +93,4 @@ const clubDetail_물소리바람소리 = () => {
     );
   };
   
-  export default clubDetail_물소리바람소리;
+  export default clubDetail_Habitat;
