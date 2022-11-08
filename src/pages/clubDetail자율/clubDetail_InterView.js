@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clubDetail.css"
-import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
+import Footer from '../Footer'
 const clubDetail_InterView = () => {
     return (
         <body style={{backgroundColor:"black"}}>
@@ -9,7 +9,7 @@ const clubDetail_InterView = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/인터뷰.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Inter:View</h1>
                 <p>Inter:View는 학생들과 세계 각지의 비정부 기구, 대사관 등 다양한 기구와의 인터뷰를 통해

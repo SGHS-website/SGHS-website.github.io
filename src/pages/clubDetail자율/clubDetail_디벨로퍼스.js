@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clubDetail.css"
-import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
+import Footer from '../Footer'
 const clubDetail_디벨로퍼스 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
@@ -9,7 +9,7 @@ const clubDetail_디벨로퍼스 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/디벨로퍼스.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Developers</h1>
                 <p>HTML, PYTHON 등의 프로그램 언어를 활용하여 웹사이트 제작과 빅데이터 분석을 하는 동아리이다

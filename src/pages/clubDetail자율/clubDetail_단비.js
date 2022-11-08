@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clubDetail.css"
-import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
+import Footer from '../Footer'
 const clubDetail_단비 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
@@ -9,7 +9,7 @@ const clubDetail_단비 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">단비</h1>
                 <p>중국어 학습을 바탕으로 하는 중국 문화 탐구 활동 동아리이다

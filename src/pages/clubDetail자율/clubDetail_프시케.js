@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clubDetail.css"
-import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
+import Footer from '../Footer'
 const clubDetail_프시케 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
@@ -9,7 +9,7 @@ const clubDetail_프시케 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/프시케.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">프시케</h1>
                 <p>다양한 분야의 심리 실험 진행, 분석하여 사람의 심리를 연구하는 동아리이다
