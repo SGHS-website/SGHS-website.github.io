@@ -1,6 +1,6 @@
 import React from "react";
-import ".../styles/clubDetail.css"
-import schoolBackground from ".../images/background.jpg";
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
 const clubDetail_벨아르떼 = () => {
     return (
