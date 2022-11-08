@@ -12,11 +12,7 @@ const clubDetail_벨아르떼BRASSBOUND= () => {
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">벨아르떼BRASSBOUND</h1>
-                <p>~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~```
+                <p> 금관과 플룻, 클라리넷 등의 다양한 악기들의 합주를 통해 즐거움을 주는 오케스트라 동아리
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
