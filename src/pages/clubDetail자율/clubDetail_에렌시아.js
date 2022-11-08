@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/clubDetail.css"
 import schoolBackground from "../images/background.jpg";
 import Footer from './Footer'
-const clubDetail_Herencia = () => {
+const clubDetail_에렌시아 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -93,4 +93,4 @@ const clubDetail_Herencia = () => {
     );
   };
   
-  export default clubDetail_Herencia;
+  export default clubDetail_에렌시아;
