@@ -2,7 +2,7 @@ import React from "react";
 import ".../styles/clubDetail.css"
 import schoolBackground from ".../images/background.jpg";
 import Footer from '../Footer'
-const clubDetail_벨아르떼= () => {
+const clubDetail_벨아르떼 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
