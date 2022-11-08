@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/clubDetail.css"
 import schoolBackground from "../images/background.jpg";
 import Footer from './Footer'
-const clubDetail_Developers = () => {
+const clubDetail_Sherlockplus = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -11,8 +11,8 @@ const clubDetail_Developers = () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">Developers</h1>
-                <p>HTML, PYTHON 등의 프로그램 언어를 활용하여 웹사이트 제작과 빅데이터 분석을 하는 동아리이다
+                <h1 class="club-detail-explain">셜록</h1>
+                <p>실제 일어난 범죄 사건 탐구 및 범죄자 심리 분석을 하는 동아리이다
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
@@ -93,4 +93,4 @@ const clubDetail_Developers = () => {
     );
   };
   
-  export default clubDetail_Developers;
+  export default clubDetail_Sherlockplus;
