@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/clubDetail.css"
 import schoolBackground from "../images/background.jpg";
 import Footer from './Footer'
-const clubDetail_벨아르떼BRASSBOUND= () => {
+const clubDetail_벨아르떼MUSE= () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -11,7 +11,7 @@ const clubDetail_벨아르떼BRASSBOUND= () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">벨아르떼BRASSBOUND</h1>
+                <h1 class="club-detail-explain">벨아르떼MUSE</h1>
                 <p>~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
@@ -97,4 +97,4 @@ const clubDetail_벨아르떼BRASSBOUND= () => {
     );
   };
   
-  export default clubDetail_벨아르떼BRASSBOUND;
+  export default clubDetail_벨아르떼MUSE;
