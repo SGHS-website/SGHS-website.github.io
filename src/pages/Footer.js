@@ -1,5 +1,9 @@
 import React from "react";
-import SGLogo from "../images/logo.png"
+import SGLogo from "../images/logo.png";
+import { Link } from "react-router-dom";
+import gmail from "../images/contactus/gmail.png";
+import instagram from "../images/contactus/instagram.png";
+import paper from "../images/contactus/paper.png";
 
 const Footer = () =>{
     return(
@@ -14,12 +18,19 @@ const Footer = () =>{
                 </p>
             </div>
             <div className="last">
-                <p>Contact Us</p>
-                <img src={ SGLogo } className="SGlogo"></img>
-                <span class="material-symbols-outlined">mail</span>
-                
+                <p>
+                    <div className="contactus">
+                        Contact Us
+                        <img src={ gmail }></img>
+                        <img src={ instagram }></img>
+                        <img src={ paper }></img>
+                    </div>
+
+                    <br/><Link to="AboutUs">About Us</Link>
+                    <img src={ SGLogo } className="SGlogo"></img>
+                </p>
             </div>
         </div>
-    );
+    )
 }
 export default Footer;

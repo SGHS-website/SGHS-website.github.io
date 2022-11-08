@@ -116,8 +116,8 @@ body {
 }
 
 .item { 
-  width: 400px;
-  height: 600px;
+  width: 300px;
+  height: 225px;
   padding: 15px;
   flex-grow: 0;
   flex-shrink: 0;
@@ -131,17 +131,12 @@ body {
 
 .item h2 {
   background: none;
-  margin-bottom: 10px;
+  text-align: center;
+  margin: inherit;
+  padding: inherit;
+  font-size: 30px;
 }
 
-.item p {
-  background: none;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  position: inherit;
-  text-align: center;
-}
 
 
 .item:hover {
@@ -151,7 +146,11 @@ body {
 @media screen and (max-width: 1000px) {
   .item {
     width: 200px;
-    height: 300px;
+    height: 150px;
+  }
+
+  .item h2 {
+    font-size: 20px;
   }
 
 }
@@ -190,6 +189,7 @@ body {
 .boxtext {
   background: none;
   margin: auto;
+  padding: inherit;
 }
 
 #box1:hover, #box2:hover, #box3:hover {
@@ -223,6 +223,7 @@ body {
   right: 0;
   margin: auto;
   border-radius: 50%;
+  margin-bottom: 10%;
 }
 .trinity h3 {
   position: relative;
@@ -370,55 +371,34 @@ body {
 .footer p{
   font-size: 15px;
 }
+
 .first{
   margin-left: 100px;
   text-align: left;
   margin-top: 30px;
 }
 .last{
-  margin-right: 100px;
+  margin-right: 320px;
   text-align: right;
   margin-top: 30px;
   display: flex;
 }
 
-.SGlogo {
-  height: 40%;
-  width: auto;
-}
-.envelope{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 400px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+.SGlogo{
+  max-width: 210px;
+  max-height: 100px;
+  width: 90px;
+  height: 80px;
+  padding-left: 10px;
 }
 
-.insta{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 300px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+.contactus img{
+  max-width: 35px;
+  max-height: 35px;
+  padding-left: 10px;
 }
 
-.image13{
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  right: 200px;
-  padding-bottom: 30px;
-}
 
-.설국다움{
-  position: absolute;
-  bottom: 300px;
-  right: 250px;
-  width: 50px;
-  height: 30px;
-}
 
 
   /* 
