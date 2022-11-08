@@ -21,7 +21,7 @@ const clubDetail_SCAH = () => {
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
           </div>
-          <p class="club-detail-activity-name">힙합 문화 탐구 및 공연</p>
+          <p class="club-detail-activity-name">힙합 관련 음악활동을 진행하는 공연동아리</p>
         <div class="club-detail-activity">
             <p>간단한 소개와 글~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
