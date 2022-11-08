@@ -16,12 +16,15 @@ h2{
     font-size: 20px;
     word-wrap: break-word;
 }
+
 .link-in{
     position: absolute;
     height: 60px;
     width: 18%;
     text-align: center;
+
     margin-left: 30%;
+
     color: black;
     font-size: 20px;
     line-height: 0px;
@@ -30,6 +33,7 @@ h2{
 }
 .link-out{
     position: absolute;
+
     height: 60px;
     width: 18%;
     text-align: center;

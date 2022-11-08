@@ -21,7 +21,7 @@ function App() {
                 <Route exact path='/' element={<Home />}/>
                 <Route path='/club' element={<Club />}/>
                 <Route path='/event' element={<Event />}/>
-                <Route path='/AboutUs' element={<AboutUs />}/>
+                <Route path='/aboutus' element={<AboutUs />}/>
                 <Route path='/student' element={<Student />}/>
                 <Route path='/faq' element={<Faq />}/>
                 <Route path = '/eventde' element={<Eventde/>}/>

@@ -20,13 +20,13 @@ const Student = () => {
           </div>
           <Link to="/StudentCourt">
           <div className='student' id='court'>
-            <img src={studentCouncil}/>
+          <a href="#congressPop"><img src={studentCouncil}/></a>
             <a href='#courtPop'><h6>Student Court</h6></a>
           </div>
           </Link>
           <Link to="/StudentCongress">
           <div className='student' id='congress'>
-            <img src={studentCouncil}/>
+            <a href="#congressPop"><img src={studentCouncil}/></a>
             <a href='#congressPop'><h6>Student Congress</h6></a>
           </div>        
           </Link>  
@@ -49,6 +49,7 @@ const Student = () => {
           congresscongresscongresscong resscongresscongresscongresscongr esscongresscongresscongresscongress
           </p>
         </div>
+        <div style={{marginTop: "5%"}}></div>
         <Footer/>
       </body>
     );;
