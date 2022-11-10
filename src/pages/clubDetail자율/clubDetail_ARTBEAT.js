@@ -9,7 +9,7 @@ const clubDetail_ARTBEAT = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/아트비트.png")} class="club-detail-img"></img>
+        
           <div class="club-explain">
                 <h1 class="club-detail-explain">ARTBEAT</h1>
                 <p>예술경영 칼럼 작성 및 다양한 문화 체험 후 경영적 분석을 하는 동아리이다</p>

@@ -9,7 +9,7 @@ const clubDetail_Sherlockplus = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/설록.png")} class="club-detail-img"></img>
+        
           <div class="club-explain">
                 <h1 class="club-detail-explain">셜록</h1>
                 <p>실제 일어난 범죄 사건 탐구 및 범죄자 심리 분석을 하는 동아리이다

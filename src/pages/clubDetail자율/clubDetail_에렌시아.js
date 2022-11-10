@@ -9,7 +9,7 @@ const clubDetail_에렌시아 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/에렌시아.png")} class="club-detail-img"></img>
+        
           <div class="club-explain">
                 <h1 class="club-detail-explain">Herencia</h1>
                 <p>여러 가지 관점에서 과학을 탐구하는 과학실험 동아리이다
