@@ -10,7 +10,7 @@ const clubDetail_Amaranthplus = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/아마란스.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Amaranth +</h1>
                 <p>관심 분야의 이슈에 대해 논리적 근거를 바탕으로 영어 기사를 쓰는 동아리

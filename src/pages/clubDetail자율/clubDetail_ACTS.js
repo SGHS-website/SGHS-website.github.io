@@ -9,7 +9,7 @@ const clubDetail_ACTS = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/액츠.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">ACTS</h1>
                 <p>함께 예배를 드리고 셀모임을 통해 교제를 나누는 기독교 동아리입니다

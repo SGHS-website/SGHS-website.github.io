@@ -9,7 +9,7 @@ const clubDetail_키마 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/키마.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">KYMA</h1>
                 <p>각자의 개성을 표현하는 안무 창작 동아리

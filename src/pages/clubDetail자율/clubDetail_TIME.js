@@ -9,7 +9,7 @@ const clubDetail_TIME = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/타임.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">TIME</h1>
                 <p>보컬&랩 동아리로 교내 및 자체 공연에 참여

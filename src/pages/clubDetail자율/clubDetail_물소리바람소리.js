@@ -9,7 +9,7 @@ const clubDetail_물소리바람소리 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/물소리바람소리.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">물소리바람소리</h1>
                 <p>사물놀이 동아리로 전통 국악을 사랑하는 학생들이 모여있다

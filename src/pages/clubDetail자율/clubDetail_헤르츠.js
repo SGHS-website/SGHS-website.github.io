@@ -9,7 +9,7 @@ const clubDetail_헤르츠 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/헤르츠.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">헤르츠</h1>
                 <p>여성인권 신장을 위한 탐구활동과 캠페인을 진행하는 동아리

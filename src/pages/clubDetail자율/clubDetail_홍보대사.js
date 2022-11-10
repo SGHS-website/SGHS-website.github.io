@@ -9,7 +9,7 @@ const clubDetail_홍보대사 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/홍보대사.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">홍보대사</h1>
                 <p>서울국제고 입학 희망자들을 위해 캠퍼스투어, 입학설명회를 진행한다

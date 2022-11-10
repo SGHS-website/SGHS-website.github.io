@@ -9,7 +9,7 @@ const clubDetail_데라 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/데라.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">데라</h1>
                 <p>자신의 작품으로 굿즈를 만들고 다른 친구들과 그림에 관련된 무엇이든 공유하는 일러스트 동아리입니다

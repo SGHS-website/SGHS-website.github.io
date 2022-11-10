@@ -9,14 +9,10 @@ const clubDetail_SCAH = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/스카.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">SCAH</h1>
-                <p>~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~```
+                <p>힙합 관련 음악활동을 진행하는 공연동아리
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
