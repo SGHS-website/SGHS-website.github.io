@@ -1,8 +1,8 @@
 import React from "react";
-import "../../styles/clubDetail.css"
-import schoolBackground from "../../images/background.jpg";
-import Footer from '../Footer'
-const clubDetail_SCAH = () => {
+import "../styles/clubDetail.css"
+import schoolBackground from "../images/background.jpg";
+import Footer from './Footer'
+const clubDetail_bio_psychologyhonors = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -11,17 +11,13 @@ const clubDetail_SCAH = () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">SCAH</h1>
-                <p>~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~```
+                <h1 class="club-detail-explain">Bio-Psychology Honors Club</h1>
+                <p>생물학과 심리학을 연결해서 새로운 개념을 배우고 이를 토대로 실험을 함
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
           </div>
-          <p class="club-detail-activity-name">힙합 관련 음악활동을 진행하는 공연동아리</p>
+          <p class="club-detail-activity-name">예술경영 칼럼 및 문화 생활 관람</p>
         <div class="club-detail-activity">
             <p>간단한 소개와 글~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,4 +93,4 @@ const clubDetail_SCAH = () => {
     );
   };
   
-  export default clubDetail_SCAH;
+  export default clubDetail_bio_psychologyhonors;

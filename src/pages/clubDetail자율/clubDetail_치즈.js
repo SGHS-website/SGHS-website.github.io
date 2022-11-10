@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/clubDetail.css"
 import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
-const clubDetail_SCAH = () => {
+const clubDetail_치즈 = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -11,17 +11,13 @@ const clubDetail_SCAH = () => {
         </div>
         <img src="" class="club-detail-img"></img>
           <div class="club-explain">
-                <h1 class="club-detail-explain">SCAH</h1>
-                <p>~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
-                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~```
+                <h1 class="club-detail-explain">치즈</h1>
+                <p>사회 현상을 다양한 시선으로 바라보며 사진으로 기록하는 문예동아리
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
           </div>
-          <p class="club-detail-activity-name">힙합 관련 음악활동을 진행하는 공연동아리</p>
+          <p class="club-detail-activity-name">예술경영 칼럼 및 문화 생활 관람</p>
         <div class="club-detail-activity">
             <p>간단한 소개와 글~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,4 +93,4 @@ const clubDetail_SCAH = () => {
     );
   };
   
-  export default clubDetail_SCAH;
+  export default clubDetail_치즈;
