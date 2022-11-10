@@ -12,7 +12,7 @@ const clubDetail_베르데 = () => {
         <img src={require("../../images/img/베르데.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">베르데</h1>
-                <p>국제 사회에서의 환걍 문제와 환경 정책을 다루며, 친환경적인 행동을 실천하는 환경 동아리이다
+                <p>국제 사회에서의 환경 문제와 환경 정책을 다루며, 친환경적인 행동을 실천하는 환경 동아리이다
                 </p>
                 <span className="club-detail-member">부장-설국다움<br></br>차장-설국다움</span>
                 <span className="club-detail-date">2021.01.01</span>
