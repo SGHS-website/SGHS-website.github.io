@@ -9,7 +9,7 @@ const clubDetail_VarlaEdibleInsectClub = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/식용곤충.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Varlá Edible Insect Club</h1>
                 <p>식용 곤충에 대한 책 집필 및 제품 제작을 통해 대중의 인식을 바꾸고자 할 것

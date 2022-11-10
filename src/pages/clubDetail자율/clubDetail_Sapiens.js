@@ -9,7 +9,7 @@ const clubDetail_Sapiens = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/사피엔스.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Sapiens</h1>
                 <p>영어로 인류학을 탐구하고 에세이 및 논문 작성으로 결과물을 도출함
