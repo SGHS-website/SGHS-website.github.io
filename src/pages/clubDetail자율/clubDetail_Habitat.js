@@ -9,7 +9,7 @@ const clubDetail_Habitat = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/해비타트.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Habitat</h1>
                 <p>모두의 주거환경 마련을 위한 건축봉사동아리

@@ -9,7 +9,7 @@ const clubDetail_우나 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/우나.PNG")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">우나</h1>
                 <p>국제교류를 통한 문화교류 및 세계문제 탐구, 해결 동아리

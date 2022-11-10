@@ -9,7 +9,7 @@ const clubDetail_치즈 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/치즈.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">치즈</h1>
                 <p>사회 현상을 다양한 시선으로 바라보며 사진으로 기록하는 문예동아리
