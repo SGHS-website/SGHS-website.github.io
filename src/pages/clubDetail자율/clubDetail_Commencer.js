@@ -9,7 +9,7 @@ const clubDetail_꼬망세 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/꼬망세.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">꼬망쎄</h1>
                 <p>프랑스어 및 프랑스 문화를 함께 탐구하는 동아리

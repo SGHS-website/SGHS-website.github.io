@@ -10,7 +10,7 @@ const clubDetail_bio_psychologyhonors = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/바싸코.png")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Bio-Psychology Honors Club</h1>
                 <p>생물학과 심리학을 연결해서 새로운 개념을 배우고 이를 토대로 실험을 함

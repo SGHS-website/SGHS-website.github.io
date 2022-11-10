@@ -9,7 +9,7 @@ const clubDetail_츄러스 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/츄러스.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">츄러스</h1>
                 <p>수학 관련 문제들을 함께 제작 및 해결하고 생활 속 수학을 탐구하는 동아리
