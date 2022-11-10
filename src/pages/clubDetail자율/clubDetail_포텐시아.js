@@ -9,7 +9,7 @@ const clubDetail_포텐시아 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/포텐시아.png")} class="club-detail-img"></img>
+        <img src={require("../../images/img/포텐시아.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">포텐시아</h1>
                 <p>유네스코와 연계해 국제적 화합을 위한 방안을 모색하는 세계시민 동아리이다

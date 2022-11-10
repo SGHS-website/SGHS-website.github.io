@@ -9,7 +9,7 @@ const clubDetail_디벨로퍼스 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/디벨로퍼스.png")} class="club-detail-img"></img>
+        <img src={require("../../images/img/디벨로퍼스.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Developers</h1>
                 <p>HTML, PYTHON 등의 프로그램 언어를 활용하여 웹사이트 제작과 빅데이터 분석을 하는 동아리이다

@@ -9,7 +9,7 @@ const clubDetail_DECA = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/.png")} class="club-detail-img"></img>
+        <img src="" class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">DECA</h1>
                 <p>'사회적 공헌'을 목표로 한 창업형 기업경영 동아리이다

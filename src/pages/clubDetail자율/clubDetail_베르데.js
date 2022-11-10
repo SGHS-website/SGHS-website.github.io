@@ -9,7 +9,7 @@ const clubDetail_베르데 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/베르데.png")} class="club-detail-img"></img>
+        <img src={require("../../images/img/베르데.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">베르데</h1>
                 <p>국제 사회에서의 환걍 문제와 환경 정책을 다루며, 친환경적인 행동을 실천하는 환경 동아리이다

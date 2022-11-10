@@ -9,7 +9,7 @@ const clubDetail_Bloomsbury = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src={require("../../images/img/.png")} class="club-detail-img"></img>
+        <img src='' class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">Bloomsbury</h1>
                 <p>정치 철학 동아리로서 여러 사상에 대한 비판과 토론을 진행하며 활동한다
