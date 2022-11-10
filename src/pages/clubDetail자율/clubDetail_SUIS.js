@@ -9,7 +9,7 @@ const clubDetail_SUIS = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/스위스.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">SUIS</h1>
                 <p>댄스동아리
