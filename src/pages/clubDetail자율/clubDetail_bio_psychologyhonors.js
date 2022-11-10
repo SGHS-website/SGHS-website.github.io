@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/clubDetail.css"
-import schoolBackground from "../images/background.jpg";
-import Footer from './Footer'
+import "../../styles/clubDetail.css"
+import schoolBackground from "../../images/background.jpg";
+import Footer from '../Footer'
 const clubDetail_bio_psychologyhonors = () => {
     return (
         <body style={{backgroundColor:"black"}}>
