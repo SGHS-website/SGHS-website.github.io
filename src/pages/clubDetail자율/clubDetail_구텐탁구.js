@@ -9,7 +9,7 @@ const clubDetail_구텐탁구 = () => {
           <img src={schoolBackground}></img>
           <h2>club</h2>
         </div>
-        <img src="" class="club-detail-img"></img>
+        <img src={require("../../images/img/구텐탁구.jpg")} class="club-detail-img"></img>
           <div class="club-explain">
                 <h1 class="club-detail-explain">구텐탁구</h1>
                 <p>학생들이 탁구라는 스포츠를 통해 즐거움을 느낄 수 있는 동아리
