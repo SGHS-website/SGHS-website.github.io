@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/clubDetail.css"
 import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
-const Gutentakgu = () => {
+const clubDetail_Gutentakgu = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -93,4 +93,4 @@ const Gutentakgu = () => {
     );
   };
   
-  export default Gutentakgu;
+  export default clubDetail_Gutentakgu;

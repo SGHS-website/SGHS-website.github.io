@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/clubDetail.css"
 import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
-const clubDetail_피그말리온 = () => {
+const clubDetail_Pygmalion = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -93,4 +93,4 @@ const clubDetail_피그말리온 = () => {
     );
   };
   
-  export default clubDetail_피그말리온;
+  export default clubDetail_Pygmalion;

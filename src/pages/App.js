@@ -38,7 +38,7 @@ import BellArte from './clubDetail자율/clubDetail_BellArte';
 import SCAH from './clubDetail자율/clubDetail_SCAH';
 import SUIS from './clubDetail자율/clubDetail_SUIS';
 import TIME from './clubDetail자율/clubDetail_TIME';
-import Mullsoribaramsori from './clubDetail자율/clubDetail_Mullsoribaramsori';
+import MullsoriBaramsori from './clubDetail자율/clubDetail_MullsoriBaramsori';
 import Gutentakgu from './clubDetail자율/clubDetail_Gutentakgu';
 import Dera from './clubDetail자율/clubDetail_Dera';
 import Kyma from './clubDetail자율/clubDetail_Kyma';
@@ -87,7 +87,7 @@ function App() {
                 <Route path = '/clubDetail_SCAH' element={<SCAH/>}/>
                 <Route path = '/clubDetail_SUIS' element={<SUIS/>}/>
                 <Route path = '/clubDetail_TIME' element={<TIME/>}/>
-                <Route path = '/clubDetail_물소리바람소리' element={<Mullsoribaramsori/>}/>
+                <Route path = '/clubDetail_물소리바람소리' element={<MullsoriBaramsori/>}/>
                 <Route path = '/clubDetail_구텐탁구' element={<Gutentakgu/>}/>
                 <Route path = '/clubDetail_데라' element={<Dera/>}/>
                 <Route path = '/clubDetail_키마' element={<Kyma/>}/>

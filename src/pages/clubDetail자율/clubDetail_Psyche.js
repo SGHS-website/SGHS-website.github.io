@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/clubDetail.css"
 import schoolBackground from "../../images/background.jpg";
 import Footer from '../Footer'
-const clubDetail_프시케 = () => {
+const clubDetail_Psyche = () => {
     return (
         <body style={{backgroundColor:"black"}}>
         <div className='banner'>
@@ -93,4 +93,4 @@ const clubDetail_프시케 = () => {
     );
   };
   
-  export default clubDetail_프시케;
+  export default clubDetail_Psyche;
