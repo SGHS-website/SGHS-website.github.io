@@ -11,7 +11,7 @@ const Student = () => {
           <h2>Student Government</h2>
         </div>
         <div className='trinity'>
-          <h3>Student Coucil</h3>
+          <h3>Student Government</h3>
           <div className='circle'></div>
           <div className='student' id='council'>
           <a href="#congressPop"><img src={studentCouncil}/></a>

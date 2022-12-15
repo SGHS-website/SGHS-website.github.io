@@ -190,7 +190,7 @@ const Club = () => {
                 </div>
                 <div class="club"> 
                     <img src={require("../images/img/치즈.jpg")}/> 
-                    <h2> 치즈</h2> 
+                    <h2> 치즈 </h2> 
                 </div>
                 <div class="club"> 
                     <img src={require("../images/img/타임.jpg")}/> 

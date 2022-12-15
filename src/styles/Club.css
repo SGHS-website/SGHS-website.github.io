@@ -69,17 +69,19 @@
     justify-content: left;
 }
 .sub-category div{
-    border: 2px white solid;
+    border: 2px rgb(255, 255, 255) solid;
     width: 290px;
     height: 290px;
     margin: 1%;
-    margin-left: 30px;
+    margin-left: 27px;
+    margin-right: 27px;
     margin-top: 10px;
-    text-align: center;
 }
 .sub-category h2{
     text-align: center;
     position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 	  top: -55%;
     font-size: 21px;
     font-weight: bold;

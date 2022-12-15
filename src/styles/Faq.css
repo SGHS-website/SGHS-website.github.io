@@ -2,9 +2,21 @@
 body{
     border: none;
 }
-h2{
+.school h2{
     text-align: left;
-    font-size: 70px;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
+.dorm h2{
+    text-align: left;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+}
+.activity h2{
+    text-align: left;
+    font-size: 50px;
     padding-left: 10%;
     padding-bottom: 20px;
 }

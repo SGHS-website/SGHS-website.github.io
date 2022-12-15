@@ -44,7 +44,7 @@ const Event = () => {
           </Link>
           <Link to="/club">
             <img src={vank} alt="img"></img>
-            <p className="se2">VANK & MUNlit MUN</p>
+            <p className="se2">VANK & MUNlit<br/>Model UN</p>
           </Link>
           <Link to="/club">
            <img src={nurije} alt="img"></img>

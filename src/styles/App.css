@@ -228,6 +228,7 @@ body {
   position: relative;
   top: 45%;
   background-color:#ffffff00;
+  font-size: 30px;
 }
 
 .student {
@@ -367,6 +368,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .footer p{
   font-size: 15px;
 }
@@ -376,6 +378,7 @@ body {
   text-align: left;
   margin-top: 30px;
 }
+
 .last{
   margin-right: 320px;
   text-align: right;
